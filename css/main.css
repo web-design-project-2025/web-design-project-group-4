@@ -34,3 +34,8 @@ img {
   object-fit: cover;
   aspect-ratio: 1.1;
 }
+footer {
+  background-color: #f7f4ee;
+  gap: 20px;
+  padding: 20px;
+}
