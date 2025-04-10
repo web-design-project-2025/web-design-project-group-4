@@ -1,0 +1,36 @@
+body {
+  background-color: #fffdf7;
+}
+nav,
+.nav-links {
+  background-color: #f7f4ee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: black;
+  gap: 20px;
+  list-style: none;
+}
+.banner {
+  background-color: #f0f8f5;
+  color: #378c64;
+  word-spacing: 10px;
+  padding: 5px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.image-examples {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 1.1;
+}
