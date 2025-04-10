@@ -39,3 +39,9 @@ img {
   font-style: normal;
   font-size: 1.5rem;
 }
+
+footer {
+  background-color: #f7f4ee;
+  gap: 20px;
+  padding: 20px;
+}
