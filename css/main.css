@@ -1,5 +1,6 @@
 body {
   background-color: #fffdf7;
+  font-family: "Poppins", sans-serif;
 }
 nav,
 .nav-links {
@@ -17,6 +18,8 @@ nav,
   color: #378c64;
   word-spacing: 10px;
   padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
 }
 a {
   text-decoration: none;
@@ -38,4 +41,9 @@ footer {
   background-color: #f7f4ee;
   gap: 20px;
   padding: 20px;
+}
+
+.plan {
+  color: #ff5e57;
+  text-align: center;
 }
