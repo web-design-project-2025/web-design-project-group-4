@@ -7,16 +7,23 @@ h1 {
   font-size: 3rem;
 }
 
-img {
-  width: 100%;
-  display: grid;
-  margin: auto;
-}
-
 .recipes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px;
   justify-items: center;
   align-items: center;
+}
+
+figcaption {
+  background-color: #f0f8f5;
+  color: #378c64;
+  padding: 12px 20px;
+  border-radius: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: start;
 }
