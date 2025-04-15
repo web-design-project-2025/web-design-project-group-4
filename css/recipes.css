@@ -27,3 +27,13 @@ figcaption {
   font-size: 1.5rem;
   text-align: start;
 }
+
+.liked-container {
+  width: 20%;
+  margin: 0;
+}
+
+.calendar-container {
+  width: 35%;
+  margin: 0;
+}
