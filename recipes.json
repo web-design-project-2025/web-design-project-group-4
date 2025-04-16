@@ -124,5 +124,32 @@
     "description": "A creamy lemon cheesecake with a crispy crust.",
     "instruction": "Make crust from crushed cookies and butter, bake. Fill with lemon cream and chill.",
     "time": "40 min"
+  },
+  {
+    "id": 15,
+    "image": "../images/salmon.png",
+    "name": "Salmon with mashed potato",
+    "quantity": 0,
+    "description": "Salmon with mashed potato and spinache",
+    "instruction": "",
+    "time": "40 min"
+  },
+  {
+    "id": 16,
+    "image": "../images/salmonpotato.png",
+    "name": "Salmon with cripsy potato ",
+    "quantity": 0,
+    "description": "Salmon with crispy potato",
+    "instruction": "",
+    "time": "40 min"
+  },
+  {
+    "id": 17,
+    "image": "../images/torsk.png",
+    "name": "fried cod with couscous",
+    "quantity": 0,
+    "description": "",
+    "instruction": "",
+    "time": "30 min"
   }
 ]
