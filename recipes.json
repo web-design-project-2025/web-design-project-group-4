@@ -151,5 +151,59 @@
     "description": "",
     "instruction": "",
     "time": "30 min"
+  },
+  {
+    "id": 18,
+    "image": "../images/paneradfisk.png",
+    "name": "fried fish",
+    "quantity": 0,
+    "description": "",
+    "instruction": "",
+    "time": "30 min"
+  },
+  {
+    "id": 19,
+    "image": "../images/chickenpenne.png",
+    "name": "chicken with colorful pasta",
+    "quantity": 0,
+    "description": "",
+    "instruction": "",
+    "time": "30 min"
+  },
+  {
+    "id": 20,
+    "image": "../images/chickenpotato.png",
+    "name": "chicken with crispy potato",
+    "quantity": 0,
+    "description": "",
+    "instruction": "",
+    "time": "30 min"
+  },
+  {
+    "id": 21,
+    "image": "../images/ricepeas.png",
+    "name": "chickpeas with rice",
+    "quantity": 0,
+    "description": "",
+    "instruction": "",
+    "time": "30 min"
+  },
+  {
+    "id": 22,
+    "image": "../images/sausagemeatballs.png",
+    "name": "sausage with meatballs",
+    "quantity": 0,
+    "description": "",
+    "instruction": "",
+    "time": "30 min"
+  },
+  {
+    "id": 22,
+    "image": "../couscoustomato.png",
+    "name": "couscouse with tomato",
+    "quantity": 0,
+    "description": "",
+    "instruction": "",
+    "time": "30 min"
   }
 ]
