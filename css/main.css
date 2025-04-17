@@ -4,7 +4,6 @@ body {
 }
 nav,
 .nav-links {
-  background-color: #f7f4ee;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,6 +11,14 @@ nav,
   color: black;
   gap: 20px;
   list-style: none;
+}
+header {
+  background-color: #f7f4ee;
+  display: flex;
+}
+.logo {
+  width: 200px;
+  padding: 30px;
 }
 
 /* BANNER */
