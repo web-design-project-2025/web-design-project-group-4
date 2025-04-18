@@ -124,5 +124,86 @@
     "description": "A creamy lemon cheesecake with a crispy crust.",
     "instruction": "Make crust from crushed cookies and butter, bake. Fill with lemon cream and chill.",
     "time": "40 min"
+  },
+  {
+    "id": 15,
+    "image": "../images/salmon.png",
+    "name": "Salmon with mashed potato",
+    "quantity": 0,
+    "description": "Salmon with mashed potato and spinache",
+    "instruction": "",
+    "time": "40 min"
+  },
+  {
+    "id": 16,
+    "image": "../images/salmonpotato.png",
+    "name": "Salmon with cripsy potato ",
+    "quantity": 0,
+    "description": "Salmon with crispy potato",
+    "instruction": "",
+    "time": "40 min"
+  },
+  {
+    "id": 17,
+    "image": "../images/torsk.png",
+    "name": "fried cod with couscous",
+    "quantity": 0,
+    "description": "",
+    "instruction": "",
+    "time": "30 min"
+  },
+  {
+    "id": 18,
+    "image": "../images/paneradfisk.png",
+    "name": "fried fish",
+    "quantity": 0,
+    "description": "",
+    "instruction": "",
+    "time": "30 min"
+  },
+  {
+    "id": 19,
+    "image": "../images/chickenpenne.png",
+    "name": "chicken with colorful pasta",
+    "quantity": 0,
+    "description": "",
+    "instruction": "",
+    "time": "30 min"
+  },
+  {
+    "id": 20,
+    "image": "../images/chickenpotato.png",
+    "name": "chicken with crispy potato",
+    "quantity": 0,
+    "description": "",
+    "instruction": "",
+    "time": "30 min"
+  },
+  {
+    "id": 21,
+    "image": "../images/ricepeas.png",
+    "name": "chickpeas with rice",
+    "quantity": 0,
+    "description": "",
+    "instruction": "",
+    "time": "30 min"
+  },
+  {
+    "id": 22,
+    "image": "../images/sausagemeatballs.png",
+    "name": "sausage with meatballs",
+    "quantity": 0,
+    "description": "",
+    "instruction": "",
+    "time": "30 min"
+  },
+  {
+    "id": 22,
+    "image": "../couscoustomato.png",
+    "name": "couscouse with tomato",
+    "quantity": 0,
+    "description": "",
+    "instruction": "",
+    "time": "30 min"
   }
 ]

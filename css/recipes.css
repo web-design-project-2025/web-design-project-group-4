@@ -5,6 +5,9 @@ h1 {
   font-weight: 700;
   font-style: normal;
   font-size: 3rem;
+  font-size: 2rem;
+  color: #2e603b;
+  text-align: center;
 }
 
 .recipes {
@@ -19,21 +22,106 @@ figcaption {
   background-color: #f0f8f5;
   color: #378c64;
   padding: 12px 20px;
-  border-radius: 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-style: normal;
-  font-size: 1.5rem;
-  text-align: start;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.icon-group {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
 .liked-container {
-  width: 20%;
-  margin: 0;
+  width: 22px !important;
+  height: 22px !important;
+  object-fit: contain;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 .calendar-container {
-  width: 35%;
+  width: 40px !important;
+  height: 40px !important;
+  margin-left: 6px;
+  cursor: pointer;
+  object-fit: contain;
+  display: inline-block;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+
   margin: 0;
+  padding: 2rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  color: #2e603b;
+  margin-bottom: 0.5rem;
+}
+
+.scroll-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.recipe-row {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.recipe-row::-webkit-scrollbar {
+  display: none;
+}
+
+.recipe-box {
+  flex: 0 0 23%;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-box img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.liked-container,
+.calendar-container {
+  width: 18px;
+  height: 18px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.scroll-arrow {
+  font-size: 2rem;
+  border: none;
+  background: transparent;
+  color: #2e603b;
+  cursor: pointer;
+  padding: 0 10px;
 }
