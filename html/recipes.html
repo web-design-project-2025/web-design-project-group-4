@@ -24,6 +24,9 @@
     </nav>
     <main>
       <h1>Recipes</h1>
+      <div class="filter">
+        <button class="filter-button">Filter</button>
+      </div>
 
       <h2>Vegan</h2>
       <div class="scroll-wrapper">
@@ -31,6 +34,7 @@
           <div class="recipe-box">
             <figure>
               <div class="img-box">
+                <a href=""></a>
                 <img
                   src="../images/pexels-alesiakozik-6541561.jpg"
                   alt="Hummus"
@@ -167,13 +171,33 @@
           <div class="recipe-box">
             <figure>
               <div class="img-box">
-                <img
-                  src="../images/pexels-alesiakozik-6541561.jpg"
-                  alt="Hummus"
-                />
+                <img src="../images/chickenpotato.png" alt="Hummus" />
               </div>
               <figcaption>
-                <span>Hummus - 40 min</span>
+                <span>Chicken with potato - 40 min</span>
+                <div class="icon-group">
+                  <img
+                    src="../images/heart-svgrepo-com 01 Artboard 1.png"
+                    alt="heart"
+                    class="liked-container"
+                  />
+                  <img
+                    src="../images/calendar.png"
+                    alt="calendar"
+                    class="calendar-container"
+                  />
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="recipe-box">
+            <figure>
+              <div class="img-box">
+                <img src="../images/chickenpenne.png" alt="Soy Beef Soup" />
+              </div>
+              <figcaption>
+                <span>Chicken with penne pasta- 40 min</span>
                 <div class="icon-group">
                   <img
                     src="../images/heart-svgrepo-com 01 Artboard 1.png"
@@ -194,38 +218,12 @@
             <figure>
               <div class="img-box">
                 <img
-                  src="../images/pexels-alesiakozik-6544498.jpg"
-                  alt="Soy Beef Soup"
-                />
-              </div>
-              <figcaption>
-                <span>Soy beef soup - 40 min</span>
-                <div class="icon-group">
-                  <img
-                    src="../images/heart-svgrepo-com 01 Artboard 1.png"
-                    alt="heart"
-                    class="liked-container"
-                  />
-                  <img
-                    src="../images/calendar.png"
-                    alt="calendar"
-                    class="calendar-container"
-                  />
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-
-          <div class="recipe-box">
-            <figure>
-              <div class="img-box">
-                <img
-                  src="../images/pexels-alesiakozik-6120244.jpg"
+                  src="../images/sausagemeatballs.png"
                   alt="Tofu Broccoli Stew"
                 />
               </div>
               <figcaption>
-                <span>Tofu broccoli stew - 20 min</span>
+                <span>Sausage with meatballs - 30 min</span>
                 <div class="icon-group">
                   <img
                     src="../images/heart-svgrepo-com 01 Artboard 1.png"
@@ -245,13 +243,10 @@
           <div class="recipe-box">
             <figure>
               <div class="img-box">
-                <img
-                  src="../images/pexels-enginakyurt-2347311.jpg"
-                  alt="Noodle Wok"
-                />
+                <img src="../images/15-min-fix.jpg" alt="Noodle Wok" />
               </div>
               <figcaption>
-                <span>Noodle Wok - 40 min</span>
+                <span>Avocado toast - 10 min</span>
                 <div class="icon-group">
                   <img
                     src="../images/heart-svgrepo-com 01 Artboard 1.png"
@@ -271,13 +266,10 @@
           <div class="recipe-box">
             <figure>
               <div class="img-box">
-                <img
-                  src="../images/pexels-ella-olsson-572949-3026808.jpg"
-                  alt="Vegan Curry"
-                />
+                <img src="../images/nostalgia-noms.jpg" alt="Vegan Curry" />
               </div>
               <figcaption>
-                <span>Vegan mushroom stew - 30 min</span>
+                <span>Pasta bolognese - 20 min</span>
                 <div class="icon-group">
                   <img
                     src="../images/heart-svgrepo-com 01 Artboard 1.png"
@@ -297,6 +289,269 @@
         <button class="scroll-arrow" onclick="scrollRow('classic-row')">
           ➜
         </button>
+      </div>
+      <h2>Vegetarian</h2>
+      <div class="scroll-wrapper">
+        <section class="recipe-row" id="Vegetarian-row">
+          <div class="recipe-box">
+            <figure>
+              <div class="img-box">
+                <img src="../images/protein-packed.jpg" alt="Hummus" />
+              </div>
+              <figcaption>
+                <span>Chickpea - 40 min</span>
+                <div class="icon-group">
+                  <img
+                    src="../images/heart-svgrepo-com 01 Artboard 1.png"
+                    alt="heart"
+                    class="liked-container"
+                  />
+                  <img
+                    src="../images/calendar.png"
+                    alt="calendar"
+                    class="calendar-container"
+                  />
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="recipe-box">
+            <figure>
+              <div class="img-box">
+                <img src="../images/couscoustomato.png" alt="Soy Beef Soup" />
+              </div>
+              <figcaption>
+                <span>Couscous with carrot and tomatoes - 40 min</span>
+                <div class="icon-group">
+                  <img
+                    src="../images/heart-svgrepo-com 01 Artboard 1.png"
+                    alt="heart"
+                    class="liked-container"
+                  />
+                  <img
+                    src="../images/calendar.png"
+                    alt="calendar"
+                    class="calendar-container"
+                  />
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="recipe-box">
+            <figure>
+              <div class="img-box">
+                <img src="../images/ricepeas.png" alt="Tofu Broccoli Stew" />
+              </div>
+              <figcaption>
+                <span>rice and chickpea - 20 min</span>
+                <div class="icon-group">
+                  <img
+                    src="../images/heart-svgrepo-com 01 Artboard 1.png"
+                    alt="heart"
+                    class="liked-container"
+                  />
+                  <img
+                    src="../images/calendar.png"
+                    alt="calendar"
+                    class="calendar-container"
+                  />
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="recipe-box">
+            <figure>
+              <div class="img-box">
+                <img src="../images/plant-based.jpg" alt="Noodle Wok" />
+              </div>
+              <figcaption>
+                <span>Plant based mix - 40 min</span>
+                <div class="icon-group">
+                  <img
+                    src="../images/heart-svgrepo-com 01 Artboard 1.png"
+                    alt="heart"
+                    class="liked-container"
+                  />
+                  <img
+                    src="../images/calendar.png"
+                    alt="calendar"
+                    class="calendar-container"
+                  />
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="recipe-box">
+            <figure>
+              <div class="img-box">
+                <img src="../images/vegetarian1.png" alt="Vegan Curry" />
+              </div>
+              <figcaption>
+                <span> couscous, chcickpea and grilled tomato- 30 min</span>
+                <div class="icon-group">
+                  <img
+                    src="../images/heart-svgrepo-com 01 Artboard 1.png"
+                    alt="heart"
+                    class="liked-container"
+                  />
+                  <img
+                    src="../images/calendar.png"
+                    alt="calendar"
+                    class="calendar-container"
+                  />
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="recipe-box">
+            <figure>
+              <div class="img-box">
+                <img src="../images/vegetarian2.png" alt="Vegan Curry" />
+              </div>
+              <figcaption>
+                <span> aubergine stew with rice- 30 min</span>
+                <div class="icon-group">
+                  <img
+                    src="../images/heart-svgrepo-com 01 Artboard 1.png"
+                    alt="heart"
+                    class="liked-container"
+                  />
+                  <img
+                    src="../images/calendar.png"
+                    alt="calendar"
+                    class="calendar-container"
+                  />
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+        <button class="scroll-arrow" onclick="scrollRow('Vegetarian-row')">
+          ➜
+        </button>
+      </div>
+      <h2>Fish</h2>
+      <div class="scroll-wrapper">
+        <section class="recipe-row" id="fish-row">
+          <div class="recipe-box">
+            <figure>
+              <div class="img-box">
+                <img src="../images/paneradfisk.png" alt="Hummus" />
+              </div>
+              <figcaption>
+                <span>fried fish with potato - 40 min</span>
+                <div class="icon-group">
+                  <img
+                    src="../images/heart-svgrepo-com 01 Artboard 1.png"
+                    alt="heart"
+                    class="liked-container"
+                  />
+                  <img
+                    src="../images/calendar.png"
+                    alt="calendar"
+                    class="calendar-container"
+                  />
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="recipe-box">
+            <figure>
+              <div class="img-box">
+                <img src="../images/torsk.png" alt="Soy Beef Soup" />
+              </div>
+              <figcaption>
+                <span>fried cod with rice - 40 min</span>
+                <div class="icon-group">
+                  <img
+                    src="../images/heart-svgrepo-com 01 Artboard 1.png"
+                    alt="heart"
+                    class="liked-container"
+                  />
+                  <img
+                    src="../images/calendar.png"
+                    alt="calendar"
+                    class="calendar-container"
+                  />
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="recipe-box">
+            <figure>
+              <div class="img-box">
+                <img src="../images/salmon.png" alt="Tofu Broccoli Stew" />
+              </div>
+              <figcaption>
+                <span>salmon with mashed potato - 30 min</span>
+                <div class="icon-group">
+                  <img
+                    src="../images/heart-svgrepo-com 01 Artboard 1.png"
+                    alt="heart"
+                    class="liked-container"
+                  />
+                  <img
+                    src="../images/calendar.png"
+                    alt="calendar"
+                    class="calendar-container"
+                  />
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="recipe-box">
+            <figure>
+              <div class="img-box">
+                <img src="../images/salmonpotato.png" alt="Noodle Wok" />
+              </div>
+              <figcaption>
+                <span>salmon with boiled potato - 40 min</span>
+                <div class="icon-group">
+                  <img
+                    src="../images/heart-svgrepo-com 01 Artboard 1.png"
+                    alt="heart"
+                    class="liked-container"
+                  />
+                  <img
+                    src="../images/calendar.png"
+                    alt="calendar"
+                    class="calendar-container"
+                  />
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="recipe-box">
+            <figure>
+              <div class="img-box">
+                <img src="../images/fish5.png" alt="Vegan Curry" />
+              </div>
+              <figcaption>
+                <span>cod with couscous - 30 min</span>
+                <div class="icon-group">
+                  <img
+                    src="../images/heart-svgrepo-com 01 Artboard 1.png"
+                    alt="heart"
+                    class="liked-container"
+                  />
+                  <img
+                    src="../images/calendar.png"
+                    alt="calendar"
+                    class="calendar-container"
+                  />
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+        <button class="scroll-arrow" onclick="scrollRow('fish-row')">➜</button>
       </div>
     </main>
 
