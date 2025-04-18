@@ -15,7 +15,7 @@ h1 {
   align-items: center;
 }
 
-figcaption {
+.recipe-box {
   background-color: #f0f8f5;
   color: #378c64;
   padding: 12px 20px;
@@ -36,4 +36,8 @@ figcaption {
 .calendar-container {
   width: 35%;
   margin: 0;
+}
+
+.add-calendar-button {
+  width: 100%;
 }
