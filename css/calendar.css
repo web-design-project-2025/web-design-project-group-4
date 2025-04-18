@@ -1,0 +1,13 @@
+.calendar-recipe-image {
+  width: 5%;
+}
+
+.recipe-name {
+  font-size: small;
+  color: white;
+  transform: translateY(-5em);
+}
+
+.added-recipes {
+  background-color: aliceblue;
+}
