@@ -40,6 +40,29 @@ h1 {
   background-color: #f0f8f5;
 }
 
+.weekly-menu-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.icon-group {
+  display: flex;
+  padding-top: 10px;
+}
+
+.heart-icon {
+  width: 25px !important;
+  height: 25px !important;
+  padding-top: 3px;
+}
+
+.calendar-icon {
+  width: 45px !important;
+  height: 45px !important;
+}
+
 .meal-plan-card img,
 .weekly-menu-card img {
   width: 100%;
