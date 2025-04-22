@@ -16,9 +16,12 @@ header {
   background-color: #f7f4ee;
   display: flex;
 }
+
 .logo {
   width: 200px;
+  height: auto;
   padding: 30px;
+  object-fit: contain; /* prevents stretching */
 }
 
 /* BANNER */
