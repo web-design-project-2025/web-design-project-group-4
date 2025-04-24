@@ -26,8 +26,8 @@ if (storedRecipes) {
         </div>
 
         <div class="button-group">
-          <button class="save-recipe-button" data-recipe-id="${recipe.id}" type="button">Save Recipe</button>
-          <button class="add-calendar-button" type="button">Add to Calendar</button>
+          <button class="save-button" data-recipe-id="${recipe.id}" type="button">Save Recipe</button>
+          <button class="add-button" type="button">Add to Calendar</button>
         </div>
       </div>
 
@@ -44,20 +44,6 @@ if (storedRecipes) {
     </div>
   </div>
 `;
-
-    // detailContainer.innerHTML = `
-    //   <h1 class="detail-header">${recipe.name}</h1>
-    //   <div class="detail-box">
-    //     <img class="detail-image" src="${recipe.image}" alt="${recipe.name}">
-    //     <p class="description">${recipe.description}</p>
-    //     <p><strong>Cooking Time:</strong> ${recipe.time}</p>
-    //     <p><strong>Tags:</strong> ${recipe.tags}</p>
-    //     <h2>Instructions</h2>
-    //     <p class="instructions">${recipe.instruction}</p>
-    //   </div>
-    //   <button class="add-calendar-button" type="button">Add to Calendar</button>
-    //   <button class="save-recipe-button" data-recipe-id="${recipe.id}" type="button">Save Recipe</button>
-    // `;
   } else {
     // If no recipe is found, display an error message
     document.getElementById("detail-container").innerHTML =
