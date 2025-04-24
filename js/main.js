@@ -10,10 +10,11 @@ fetch("../recipes.json")
       localStorage.setItem("calendar", "[]");
     }
   });
-
+// calendar storage
 let recipes = JSON.parse(localStorage.getItem("recipes"));
-let calendar = JSON.parse(localStorage.getItem("calendar"));
-
+const calendarByDate = JSON.parse(localStorage.getItem("calendarByDate")) || {};
+let calendar = JSON.parse(localStorage.getItem("calendar")) || [];
+//getting the recipe id
 function addToCalendar(recipeId) {
   let recipe = recipes.find(function (recipe) {
     return recipe.id == recipeId;
@@ -47,36 +48,137 @@ document.addEventListener("DOMContentLoaded", function () {
 //localStorage.clear();
 //addToCalendar();
 
-//Displaying recipes in calendar:
-document.addEventListener("DOMContentLoaded", function () {
-  let calendarContainer = document.getElementById("calendar-container");
+// Generate the calendar grid
+function generateCalendarGrid() {
+  const grid = document.getElementById("calendar-grid");
+  if (!grid) return;
 
-  if (calendarContainer) {
-    //display the recipe image
-    let calendar = JSON.parse(localStorage.getItem("calendar")) || []; // Get calendar from localStorage
-    if (calendar.length > 0) {
-      // Loop through the cart and display each product
-      calendar.forEach(function (recipe) {
-        let recipeDiv = document.createElement("div");
-        recipeDiv.classList.add("calendar-item");
+  const calendarByDate =
+    JSON.parse(localStorage.getItem("calendarByDate")) || {};
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = today.getMonth();
+  const firstDay = new Date(year, month, 1).getDay();
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
 
-        let recipeHTML = `
-        <div class="added-recipes">
-                <div class="calendar-recipe-image">
-                    <img src="${recipe.image}" alt="${recipe.name}" />
-                </div>
-                    <h3 class="recipe-name">${recipe.name}</h3>
-                    </div>
-                `;
+  const dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  grid.innerHTML = dayNames
+    .map((day) => `<div class="day-name">${day}</div>`)
+    .join("");
 
-        recipeDiv.innerHTML = recipeHTML;
+  for (let i = 0; i < firstDay; i++) {
+    grid.innerHTML += `<div class="calendar-day empty"></div>`;
+  }
 
-        // Append the recipe to the calendar container
-        calendarContainer.appendChild(recipeDiv);
+  for (let d = 1; d <= daysInMonth; d++) {
+    const dateStr = `${year}-${String(month + 1).padStart(2, "0")}-${String(
+      d
+    ).padStart(2, "0")}`;
+    let cellContent = `<div class="date-number">${d}</div>`;
+
+    if (calendarByDate[dateStr]) {
+      calendarByDate[dateStr].forEach((recipe) => {
+        cellContent += `<img src="${recipe.image}" alt="${recipe.name}" title="${recipe.name}" />`;
       });
-    } else {
-      // If calendar empty:
-      calendarContainer.innerHTML = "<p>Add recipes you want to make!</p>";
     }
+
+    grid.innerHTML += `<div class="calendar-day" data-date="${dateStr}">${cellContent}</div>`;
+  }
+}
+// Create the draggable recipe
+let selectedRecipeId = null;
+function renderDraggableRecipes() {
+  const container = document.getElementById("added-recipes-panel");
+  const calendar = JSON.parse(localStorage.getItem("calendar")) || [];
+
+  container.innerHTML = "";
+
+  calendar.forEach((recipe) => {
+    const div = document.createElement("div");
+    div.className = "recipe-draggable";
+    div.setAttribute("draggable", "true");
+    div.setAttribute("data-recipe-id", recipe.id);
+    div.innerHTML = `<img src="${recipe.image}" alt="${recipe.name}" title="${recipe.name}" />`;
+    container.appendChild(div);
+  });
+}
+
+document.addEventListener("click", function (e) {
+  if (e.target.closest(".calendar-day") && selectedRecipeId) {
+    const dayDiv = e.target.closest(".calendar-day");
+    const date = dayDiv.getAttribute("data-date");
+    addToCalendar(selectedRecipeId, date);
+    generateCalendarGrid();
+    selectedRecipeId = null;
   }
 });
+document.addEventListener("DOMContentLoaded", function () {
+  renderDraggableRecipes();
+  generateCalendarGrid();
+});
+// When the user starts dragging a recipe card it save its ID
+document.addEventListener("dragstart", function (e) {
+  const wrapper = e.target.closest(".recipe-draggable");
+  if (wrapper) {
+    const id = wrapper.getAttribute("data-recipe-id");
+    console.log(" Dragging recipeId:", id);
+    e.dataTransfer.setData("recipeId", id);
+  } else {
+    console.warn("⚠️ Dragged element is not inside .recipe-draggable");
+  }
+});
+//hover when dragging
+document.addEventListener("dragover", function (e) {
+  if (e.target.classList.contains("calendar-day")) {
+    e.preventDefault();
+    e.target.classList.add("drag-hover");
+  }
+});
+
+document.addEventListener("dragleave", function (e) {
+  if (e.target.classList.contains("calendar-day")) {
+    e.target.classList.remove("drag-hover");
+  }
+});
+
+// drop on calendar cell assigning recipe to that date
+document.addEventListener("drop", function (e) {
+  const day = e.target.closest(".calendar-day");
+
+  if (day) {
+    e.preventDefault();
+    day.classList.remove("drag-hover");
+
+    const recipeId = e.dataTransfer.getData("recipeId");
+    const date = day.getAttribute("data-date");
+
+    console.log("📦 DROP on", date, "with recipeId:", recipeId);
+
+    if (!recipeId) {
+      console.warn("⚠️ No recipeId found in dataTransfer!");
+      return;
+    }
+
+    addRecipeToDate(recipeId, date);
+    generateCalendarGrid();
+  } else {
+    console.warn("⚠️ Drop target is NOT a calendar-day");
+  }
+});
+// Assign a specific recipe to a specific calendar date
+function addRecipeToDate(recipeId, date) {
+  let recipes = JSON.parse(localStorage.getItem("recipes")) || [];
+  let calendarByDate = JSON.parse(localStorage.getItem("calendarByDate")) || {};
+
+  let recipe = recipes.find((r) => r.id == recipeId);
+  if (!recipe) return;
+
+  if (!calendarByDate[date]) calendarByDate[date] = [];
+
+  const exists = calendarByDate[date].some((r) => r.id == recipeId);
+  if (!exists) {
+    calendarByDate[date].push(recipe);
+    localStorage.setItem("calendarByDate", JSON.stringify(calendarByDate));
+    console.log(`Saved ${recipe.name} to ${date}`);
+  }
+}
