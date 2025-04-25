@@ -1,15 +1,73 @@
 .calendar-recipe-image {
   width: 5%;
 }
-
 .recipe-name {
   font-size: small;
   color: white;
   transform: translateY(-5em);
+  .added-recipes {
+    background-color: aliceblue;
+  }
 }
 
-.added-recipes {
-  background-color: aliceblue;
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 1rem;
+}
+.day-name,
+.calendar-day {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 8px;
+  min-height: 100px;
+  position: relative;
+}
+.day-name {
+  background: #eee;
+  font-weight: bold;
+  text-align: center;
+}
+.date-number {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 0.75em;
+  color: #444;
+}
+.calendar-day img {
+  max-width: 90%;
+  max-height: 60px;
+  display: block;
+  margin: 1.5em auto 0;
+}
+.recipe-draggable-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 10px 0;
+}
+.recipe-draggable {
+  width: 100px;
+  cursor: grab;
+  border: 1px solid #ccc;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+.recipe-draggable:hover {
+  transform: scale(1.05);
+} /* Image inside draggable recipe */
+.recipe-draggable img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 5px;
 }
 .calendar-recipe-image {
   width: 5%;
