@@ -1,0 +1,82 @@
+.recipe-detail-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.recipe-image {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.recipe-section {
+  background-color: #f6f6f6;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.recipe-box span {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.save-button,
+.add-button {
+  background-color: #e94e3d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ingredients ul {
+  padding-left: 1.5rem;
+}
+
+.nutrition {
+  background-color: #fff4d6;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.nutrition-box {
+  display: flex;
+  flex-direction: column;
+}
+.right-column h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #378c64;
+}
+
+.right-column {
+  border-radius: 8px;
+}
+
+.instructions {
+  background-color: #f0f8f5;
+  padding: 1rem;
+  border-radius: 10px;
+}

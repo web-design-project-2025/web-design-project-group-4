@@ -1,0 +1,497 @@
+[
+  {
+    "id": 1,
+    "image": "../images/pexels-alesiakozik-6541561.jpg",
+    "name": "Hummus",
+    "instructions": "Rinse and drain one can of chickpeas. In a food processor, blend chickpeas with 2 tablespoons tahini, 1 minced garlic clove, 2 tablespoons lemon juice, and 2 tablespoons olive oil. Blend until smooth. Add water for desired consistency. Season with salt.",
+    "time_minutes": 40,
+    "tags": "Vegan",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 170,
+      "protein_g": 6,
+      "fat_g": 13,
+      "carbs_g": 10
+    },
+    "ingredients": [
+      "1 can chickpeas",
+      "2 tbsp tahini",
+      "1 clove garlic",
+      "1 lemon (juiced)",
+      "2 tbsp olive oil",
+      "Salt to taste"
+    ]
+  },
+  {
+    "id": 2,
+    "image": "../images/pexels-alesiakozik-6544498.jpg",
+    "name": "Soy Beef Soup",
+    "instructions": "In a pot, sauteed onions, garlic, and carrots for 5 minutes. Add soy protein chunks and stir for 2 minutes. Pour in 4 cups vegetable broth, add herbs and seasonings, then simmer for 30 minutes or until tender.",
+    "time_minutes": 45,
+    "tags": "Vegan",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 230,
+      "protein_g": 18,
+      "fat_g": 6,
+      "carbs_g": 20
+    },
+    "ingredients": [
+      "1 cup soy protein",
+      "1 carrot",
+      "1 potato",
+      "1 onion",
+      "4 cups vegetable broth",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "id": 3,
+    "image": "../images/pexels-alesiakozik-6120244.jpg",
+    "name": "Tofu Broccoli Stew",
+    "instructions": "Cube firm tofu and pan-fry until golden. In a pot, saut\u00e9 garlic and ginger, add broccoli and cooked tofu. Pour in 3 cups of vegetable broth, 2 tablespoons soy sauce, and simmer for 15 minutes.",
+    "time_minutes": 35,
+    "tags": "Vegan",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 210,
+      "protein_g": 15,
+      "fat_g": 12,
+      "carbs_g": 12
+    },
+    "ingredients": [
+      "200g tofu",
+      "1 cup broccoli florets",
+      "2 tbsp soy sauce",
+      "1 clove garlic",
+      "1 tsp grated ginger",
+      "2 cups vegetable broth"
+    ]
+  },
+  {
+    "id": 4,
+    "image": "../images/pexels-enginakyurt-2347311.jpg",
+    "name": "Noodle Wok",
+    "instructions": "Cook noodles separately. In a hot wok, stir-fry chopped vegetables in sesame oil. Add cooked noodles, 2 tablespoons soy sauce, and a pinch of chili flakes. Toss for 3\u20134 minutes.",
+    "time_minutes": 25,
+    "tags": "Vegan",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 310,
+      "protein_g": 9,
+      "fat_g": 10,
+      "carbs_g": 45
+    },
+    "ingredients": [
+      "150g noodles",
+      "1 bell pepper",
+      "1 carrot",
+      "2 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "id": 5,
+    "image": "../images/pexels-ella-olsson-572949-3026808.jpg",
+    "name": "Vegan Mushroom Stew",
+    "instructions": "Sauteed a mix of mushrooms with diced onions and garlic. Add vegetable broth, thyme, and a splash of plant-based cream. Simmer for 30 minutes, stirring occasionally.",
+    "time_minutes": 40,
+    "tags": "Vegan",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 200,
+      "protein_g": 7,
+      "fat_g": 12,
+      "carbs_g": 16
+    },
+    "ingredients": [
+      "2 cups mixed mushrooms",
+      "1 onion",
+      "2 cloves garlic",
+      "3 cups vegetable broth",
+      "1 tsp thyme",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "id": 6,
+    "image": "../images/chickenpotato.png",
+    "name": "Chicken with Potato",
+    "instruction": "Season chicken thighs and potato wedges with olive oil, rosemary, and garlic. Roast in oven at 200°C (400°F) for 40–45 minutes, flipping halfway through.",
+    "time_minutes": "50 min",
+    "tags": "Classic",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 420,
+      "protein_g": 30,
+      "fat_g": 18,
+      "carbs_g": 30
+    },
+    "ingredients": [
+      "1 chicken breasts",
+      "3 medium potatoes, peeled and chopped",
+      "1 tbsp olive oil",
+      "1 tsp dried rosmary",
+      "1 tsp garlic powder",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "id": 7,
+    "image": "../images/chickenpenne.png",
+    "name": "Chicken with Penne Pasta",
+    "instruction": "Boil penne pasta. Cook diced chicken in a pan until golden. Add cooked pasta and combine with your preferred creamy sauce (e.g., cream + parmesan). Heat through and serve.",
+    "time_minutes": 40,
+    "tags": "Classic",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 520,
+      "protein_g": 32,
+      "fat_g": 20,
+      "carbs_g": 50
+    },
+    "ingredients": [
+      "100g penne pasta",
+      "1 chicken breats, diced",
+      "1 tbsp olive oil",
+      "1/2 dl cream (or dairy-free alternative)",
+      "2 tbsp grated parmesan (optional)",
+      "2 cloves garlic, minced",
+      "Salt",
+      "Pepper",
+      "Fresh basil or parsley (optional)"
+    ]
+  },
+  {
+    "id": 8,
+    "image": "../images/sausagemeatballs.png",
+    "name": "Sausage with Meatballs",
+    "instruction": "Fry sausages and meatballs in a pan with a splash of oil until cooked through. Serve with mashed potatoes, rice, or pasta of your choice.",
+    "time_minutes": 45,
+    "tags": "Classic",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 580,
+      "protein_g": 35,
+      "fat_g": 35,
+      "carbs_g": 25
+    },
+    "ingredients": [
+      "1 sausage (meat or plant-based)",
+      "3 meatballs (homemade or store bought)",
+      "1/2 tbsp olive oil",
+      "1/2 onion, sliced",
+      "Tomato sauce or mustard for serving (optional)",
+      "Salt",
+      "Pepper",
+      "Side option: mashed potatoes, rice, or vegetables"
+    ]
+  },
+  {
+    "id": 9,
+    "image": "../images/15-min-fix.jpg",
+    "name": "Avocado Toast",
+    "instruction": "Toast whole grain bread. Mash avocado with lemon juice and salt. Spread on toast. Optionally top with chili flakes, seeds, or egg.",
+    "time_minutes": 15,
+    "tags": "Classic",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 280,
+      "protein_g": 6,
+      "fat_g": 20,
+      "carbs_g": 20
+    },
+    "ingredients": [
+      "1 ripe avocado",
+      "2 slices bread of choice (sourdough, whole grain, white)",
+      "1 tsp lemon juice",
+      "Salt",
+      "Pepper",
+      "Optional toppings: chili flakes, cherry tomatoes, poached egg, microgreens"
+    ]
+  },
+  {
+    "id": 10,
+    "image": "../images/nostalgia-noms.jpg",
+    "name": "Pasta Bolognese",
+    "instruction": "Sauté ground meat, onions, and garlic. Add tomato paste, canned tomatoes, and herbs. Simmer for 30–40 minutes. Cook pasta, combine, and serve.",
+    "time_minutes": 60,
+    "tags": "Classic",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 540,
+      "protein_g": 28,
+      "fat_g": 20,
+      "carbs_g": 60
+    },
+    "ingredients": [
+      "1 tbsp olive oil",
+      "1/2 white onion, finely chopped",
+      "1 clove garlic, minced",
+      "1 small carrot, diced",
+      "1/2 celery stalk, finely diced",
+      "75g ground beef",
+      "2 tsp tomato paste",
+      "100g canned crushed tomatoes",
+      "1 bay leaf",
+      "Salt",
+      "Ground black pepper",
+      "100g pasta of choice (tagliatelle, spaghetti)",
+      "Grated parmesan cheese, for serving"
+    ]
+  },
+  {
+    "id": 11,
+    "image": "../images/protein-packed.jpg",
+    "name": "Chickpea",
+    "quantity": 0,
+    "instruction": "Heat olive oil in a pan. Add drained chickpeas and season with cumin, paprika, and salt. Cook for 10 minutes until golden and fragrant. Serve warm or cold as a side or salad topping.",
+    "time_minutes": 20,
+    "tags": "Vegetarian",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 270,
+      "protein_g": 12,
+      "carbs_g": 30,
+      "fat_g": 10
+    },
+    "ingredients": [
+      "1 can chickpeas",
+      "1 tbsp olive oil",
+      "Salt",
+      "1 tsp cumin",
+      "1 tsp paprika"
+    ]
+  },
+  {
+    "id": 12,
+    "image": "../images/couscoustomato.png",
+    "name": "Couscous with Carrot and Tomatoes",
+    "quantity": 0,
+    "instruction": "Prepare couscous with boiling water and let it steam. Meanwhile, saut\u00e9 chopped carrots and tomatoes in olive oil. Mix vegetables into couscous and season with herbs and salt.",
+    "time_minutes": 30,
+    "tags": "Vegetarian",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 310,
+      "protein_g": 7,
+      "carbs_g": 45,
+      "fat_g": 10
+    },
+    "ingredients": [
+      "1 cup couscous",
+      "1 carrot",
+      "1 tomato",
+      "1 tbsp olive oil",
+      "Salt"
+    ]
+  },
+  {
+    "id": 13,
+    "image": "../images/ricepeas.png",
+    "name": "Rice and Chickpea",
+    "quantity": 0,
+    "instruction": "Cook rice according to package instructions. Stir in canned or pre-cooked chickpeas, olive oil, and spices like turmeric and garlic powder. Mix and serve.",
+    "time_minutes": 30,
+    "tags": "Vegetarian",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 330,
+      "protein_g": 10,
+      "carbs_g": 50,
+      "fat_g": 8
+    },
+    "ingredients": [
+      "1 cup rice",
+      "1 can chickpeas",
+      "1 tbsp olive oil",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "id": 14,
+    "image": "../images/plant-based.jpg",
+    "name": "Plant Based Mix",
+    "quantity": 0,
+    "instruction": "Combine cooked tofu, black beans, corn, and saut\u00e9ed vegetables in a bowl. Season with chili powder, lime juice, and salt. Serve warm or cold.",
+    "time_minutes": 25,
+    "tags": "Vegetarian",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 350,
+      "protein_g": 18,
+      "carbs_g": 30,
+      "fat_g": 15
+    },
+    "ingredients": [
+      "100g tofu",
+      "1/2 cup beans",
+      "1 cup mixed vegetables",
+      "1 tbsp olive oil",
+      "Salt",
+      "Spices"
+    ]
+  },
+  {
+    "id": 15,
+    "image": "../images/vegetarian1.png",
+    "name": "Couscous, Chickpea, and Grilled Tomato",
+    "quantity": 0,
+    "instruction": "Grill halved tomatoes in a pan. Cook couscous with boiling water and mix with chickpeas. Combine everything and season with olive oil, lemon juice, salt, and pepper.",
+    "time_minutes": 35,
+    "tags": "Vegetarian",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 340,
+      "protein_g": 11,
+      "carbs_g": 45,
+      "fat_g": 10
+    },
+    "ingredients": [
+      "1 cup couscous",
+      "1/2 cup chickpeas",
+      "2 tomatoes",
+      "1 tbsp olive oil",
+      "Salt"
+    ]
+  },
+  {
+    "id": 16,
+    "image": "../images/vegetarian2.png",
+    "name": "Aubergine Stew with Rice",
+    "quantity": 0,
+    "instruction": "Saut\u00e9 chopped aubergines with onion and garlic until soft. Add canned tomatoes and simmer for 25 minutes. Serve over freshly cooked rice.",
+    "time_minutes": 45,
+    "tags": "Vegetarian",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 300,
+      "protein_g": 6,
+      "carbs_g": 40,
+      "fat_g": 12
+    },
+    "ingredients": [
+      "1 aubergine",
+      "1 cup rice",
+      "1 onion",
+      "2 cups vegetable broth",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "id": 17,
+    "image": "../images/paneradfisk.png",
+    "name": "Fried Fish with Potato",
+    "quantity": 0,
+    "instruction": "Season fish fillets and coat lightly with flour. Fry in oil until golden. Boil or roast potatoes with herbs and olive oil. Serve together.",
+    "time_minutes": 40,
+    "tags": "Fish",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 420,
+      "protein_g": 28,
+      "carbs_g": 30,
+      "fat_g": 20
+    },
+    "ingredients": [
+      "1 fish fillet",
+      "2 medium potatoes",
+      "1 tbsp oil",
+      "Salt",
+      "Lemon"
+    ]
+  },
+  {
+    "id": 18,
+    "image": "../images/torsk.png",
+    "name": "Fried Cod with Rice",
+    "quantity": 0,
+    "instruction": "Fry seasoned cod fillets until crispy. Steam rice and serve with saut\u00e9ed vegetables on the side.",
+    "time_minutes": 35,
+    "tags": "Fish",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 390,
+      "protein_g": 30,
+      "carbs_g": 35,
+      "fat_g": 14
+    },
+    "ingredients": [
+      "1 cod fillet",
+      "1 cup rice",
+      "1 tbsp oil",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "id": 19,
+    "image": "../images/salmon.png",
+    "name": "Salmon with Mashed Potato",
+    "quantity": 0,
+    "instruction": "Pan-sear or bake salmon fillet. Boil potatoes, then mash with a bit of butter and milk. Season and serve.",
+    "time_minutes": 40,
+    "tags": "Fish",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 480,
+      "protein_g": 34,
+      "carbs_g": 28,
+      "fat_g": 26
+    },
+    "ingredients": [
+      "1 salmon fillet",
+      "2 potatoes",
+      "1 tbsp butter",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "id": 20,
+    "image": "../images/salmonpotato.png",
+    "name": "Salmon with Boiled Potato",
+    "quantity": 0,
+    "instruction": "Bake or pan-fry salmon with herbs. Boil potatoes and season with a bit of olive oil and parsley. Serve with a side salad.",
+    "time_minutes": 35,
+    "tags": "Fish",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 450,
+      "protein_g": 32,
+      "carbs_g": 25,
+      "fat_g": 24
+    },
+    "ingredients": ["1 salmon fillet", "2 potatoes", "Salt", "Lemon"]
+  },
+  {
+    "id": 21,
+    "image": "../images/fish5.png",
+    "name": "Cod with Couscous",
+    "quantity": 0,
+    "instruction": "Steam or pan-fry cod fillets. Prepare couscous and toss with chopped vegetables and herbs. Serve the fish over couscous.",
+    "time_minutes": 30,
+    "tags": "Fish",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 400,
+      "protein_g": 30,
+      "carbs_g": 35,
+      "fat_g": 14
+    },
+    "ingredients": [
+      "1 cod fillet",
+      "1 cup couscous",
+      "1/2 cup vegetables",
+      "1 tbsp olive oil",
+      "Salt"
+    ]
+  }
+]
