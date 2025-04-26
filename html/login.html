@@ -6,13 +6,14 @@
     <title>Snackademic - Your account</title>
     <link rel="stylesheet" href="../css/main.css" />
     <script src="../js/main.js" defer></script>
-    <script src="../js/login.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/account.css" />
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="../js/login.js" defer></script>
   </head>
   <body>
     <header>
@@ -31,48 +32,27 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <div class="account-header">
-        <h1 class="account-title">MY ACCOUNT</h1>
-        <button id="signOut">Sign Out</button>
-      </div>
-      <section class="profile">
-        <img src="" alt="" class="profile-pic" />
-        <h2 class="username">your name</h2>
-      </section>
-      <section class="favorites">
-        <h3>Your favorite recipes</h3>
-        <div class="favorite-recipes" id="favorite-recipe"></div>
-        <a href="" class="view-all"> View all →</a>
-      </section>
 
-      <section class="preferences">
-        <h3>Choose Your Food Preference</h3>
+    <h1>Login to Snackademic</h1>
 
-        <form id="preferenceForm">
-          <label
-            ><input type="radio" name="foodPreference" value="Vegan" />
-            Vegan</label
-          ><br />
-          <label
-            ><input type="radio" name="foodPreference" value="Vegetarian" />
-            Vegetarian</label
-          ><br />
-          <label
-            ><input type="radio" name="foodPreference" value="Pescatarian" />
-            Pescatarian</label
-          ><br />
-          <label
-            ><input type="radio" name="foodPreference" value="Omnivore" />
-            Omnivore</label
-          ><br />
+    <div
+      id="g_id_onload"
+      data-client_id="1009330604230-p328r53pgf66727kc4dh457891effii3.apps.googleusercontent.com"
+      data-callback="handleCredentialResponse"
+      data-auto_prompt="false"
+    ></div>
 
-          <button type="submit">Save Preference</button>
-        </form>
+    <div
+      class="g_id_signin"
+      data-type="standard"
+      data-size="large"
+      data-theme="outline"
+      data-text="sign_in_with"
+      data-shape="rectangular"
+      data-logo_alignment="left"
+    ></div>
 
-        <p id="savedPreference"></p>
-      </section>
-    </main>
+    >
     <footer>
       <div class="newsletter">
         <h3>Stay Updated</h3>
