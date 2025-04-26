@@ -67,6 +67,5 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   } else {
     //  redirect back to login page
-    window.location.href = "login.html";
   }
 });
