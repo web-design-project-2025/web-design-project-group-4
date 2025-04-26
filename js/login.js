@@ -1,3 +1,4 @@
+//I GOT HELP FROM AI AND GOOGLE HOW TO SET UP THE API
 function handleCredentialResponse(response) {
   const data = parseJwt(response.credential);
 
