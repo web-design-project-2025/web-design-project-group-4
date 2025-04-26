@@ -82,3 +82,27 @@
   border-radius: 5px;
   padding: 10px;
 }
+
+.g_id_signin {
+  width: 30%;
+  margin: 50px;
+}
+
+.google-btn {
+  background-color: #f0f8f5;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  display: flex;
+  width: 50%;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: #47825e;
+}
