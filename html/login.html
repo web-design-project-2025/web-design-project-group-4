@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snackademic - Your account</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="../js/main.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/account.css" />
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="../js/login.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="images/logo.svg"
+        alt="green and white snackademic logo"
+      />
+      <nav>
+        <ul class="nav-links">
+          <a href="../html/index.html">Home</a>
+          <a href="../html/recipes.html"><li>Recipes</li></a>
+          <a href="../html/meal-plans.html"><li>Plans</li></a>
+          <a href="../html/calendar.html"><li>Calendar</li></a>
+          <a href="../html/about.html"><li>About</li></a>
+          <a href="../html/login.html"><li>Login</li></a>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Login to Snackademic</h1>
+    <div class="google-btn">
+      <div
+        id="g_id_onload"
+        data-client_id="1009330604230-p328r53pgf66727kc4dh457891effii3.apps.googleusercontent.com"
+        data-callback="handleCredentialResponse"
+        data-auto_prompt="false"
+      ></div>
+
+      <div
+        class="g_id_signin"
+        data-type="standard"
+        data-size="large"
+        data-theme="outline"
+        data-text="sign_in_with"
+        data-shape="rectangular"
+        data-logo_alignment="left"
+      ></div>
+    </div>
+
+    <footer>
+      <div class="newsletter">
+        <h3>Stay Updated</h3>
+        <p>
+          Receive the latest news and recipes by subscribing to our newsletter!
+        </p>
+        <input type="email" placeholder="Enter email address" />
+        <button>Subscribe</button>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>About Us</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            impedit est ullam maxime consequuntur accusantium molestiae officiis
+            distinctio! At hic debitis, vitae eos a voluptatum magnam quisquam
+            explicabo! Rerum, ad.
+          </p>
+        </div>
+        <div>
+          <h4>Help & Support</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ut
+            ipsam vitae sunt necessitatibus cum natus culpa architecto numquam
+            incidunt, quisquam mollitia provident aliquam nemo qui officia,
+            autem accusamus reprehenderit?
+          </p>
+        </div>
+        <div><h4>FAQ</h4></div>
+      </div>
+    </footer>
+  </body>
+</html>
