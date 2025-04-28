@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const recipes = JSON.parse(localStorage.getItem("recipes")) || [];
 
-      // Find the full recipe object by ID
       const recipe = recipes.find((r) => r.id == Number(likedId));
 
       if (!recipe) {
