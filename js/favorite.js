@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       const recipes = JSON.parse(localStorage.getItem("recipes")) || [];
+      const favorites = JSON.parse(localStorage.getItem("favorite")) || [];
 
       const recipe = recipes.find((r) => r.id == Number(likedId));
 
@@ -20,42 +21,50 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
       }
 
-      let favorites = JSON.parse(localStorage.getItem("favorite")) || [];
+      const index = favorites.findIndex((fav) => fav.id == recipe.id);
 
-      // Check if already favorite
-      if (!favorites.find((fav) => fav.id == recipe.id)) {
-        favorites.push(recipe); // Save full recipe
-        localStorage.setItem("favorite", JSON.stringify(favorites));
+      if (index === -1) {
+        // Not in favorites  add it
+        favorites.push(recipe);
         alert("Added to favorites!");
       } else {
-        alert("Already in favorites!");
+        // Already in favorites remove it
+        favorites.splice(index, 1);
+        alert("Removed from favorites!");
       }
+
+      localStorage.setItem("favorite", JSON.stringify(favorites));
+
+      updateFavoriteList();
     });
   });
 
-  // Show favorites in account page
-  const favoriteContainer = document.querySelector(
-    ".favorites .liked-container"
-  );
+  function updateFavoriteList() {
+    const favoriteContainer = document.querySelector(
+      ".favorites .liked-container"
+    );
 
-  if (favoriteContainer) {
-    const favorites = JSON.parse(localStorage.getItem("favorite")) || [];
+    if (favoriteContainer) {
+      const favorites = JSON.parse(localStorage.getItem("favorite")) || [];
 
-    favoriteContainer.innerHTML = "";
+      favoriteContainer.innerHTML = "";
 
-    favorites.forEach(function (recipe) {
-      const favoriteItem = document.createElement("div");
-      favoriteItem.classList.add("favorite-item");
+      favorites.forEach(function (recipe) {
+        const favoriteItem = document.createElement("div");
+        favoriteItem.classList.add("favorite-item");
 
-      favoriteItem.innerHTML = `
-          <img src="${recipe.image}" alt="${recipe.name}" style="width:120px;height:120px;object-fit:cover;">
-        `;
+        favoriteItem.innerHTML = `
+            <img src="${recipe.image}" alt="${recipe.name}" style="width:120px;height:120px;object-fit:cover;">
+          `;
 
-      favoriteContainer.appendChild(favoriteItem);
-    });
+        favoriteContainer.appendChild(favoriteItem);
+      });
 
-    if (favorites.length === 0) {
-      favoriteContainer.innerHTML = "<p>No favorites yet.</p>";
+      if (favorites.length === 0) {
+        favoriteContainer.innerHTML = "<p>No favorites yet.</p>";
+      }
     }
   }
+
+  updateFavoriteList();
 });
