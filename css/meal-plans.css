@@ -58,7 +58,8 @@ h1 {
   padding-top: 3px;
 }
 
-.calendar-icon {
+.calendar-icon,
+.calendar-container {
   width: 45px !important;
   height: 45px !important;
 }
