@@ -30,17 +30,16 @@ function addToCalendar(recipeId) {
   }
 }
 
-//Adding to calendar with buttons:
-let addToCalendarButtons = document.querySelectorAll(".add-calendar-button");
-//Once DOM loaded
-document.addEventListener("DOMContentLoaded", function () {
-  let addCalendarButtons = document.querySelectorAll(".add-calendar-button");
+//Adding to calendar with icons:
 
-  addCalendarButtons.forEach(function (button) {
-    button.addEventListener("click", function () {
-      alert("Added to calendar!");
-      let recipeId = button.getAttribute("data-recipe-id");
+document.addEventListener("DOMContentLoaded", function () {
+  let calendarIcons = document.querySelectorAll(".calendar-container");
+
+  calendarIcons.forEach(function (icon) {
+    icon.addEventListener("click", function () {
+      let recipeId = icon.getAttribute("data-recipe-id");
       addToCalendar(recipeId);
+      alert("Added to calendar!");
     });
   });
 });
