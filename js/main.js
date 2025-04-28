@@ -1,4 +1,4 @@
-// Inspiration for function logic https://www.youtube.com/watch?v=pRkHOD_nkH4&t=408s
+// Fetching json + Inspiration for function addtocalendar and removefromcalendar: https://www.youtube.com/watch?v=pRkHOD_nkH4&t=408s
 //Fetching json objects, storing in localstorage:
 fetch("../recipes.json")
   .then(function (response) {
@@ -10,6 +10,7 @@ fetch("../recipes.json")
       localStorage.setItem("calendar", "[]");
     }
   });
+
 // calendar storage
 let recipes = JSON.parse(localStorage.getItem("recipes"));
 const calendarByDate = JSON.parse(localStorage.getItem("calendarByDate")) || {};
@@ -45,7 +46,48 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //localStorage.clear();
-//addToCalendar();
+//addToCalendar(11);
+
+function removeFromCalendar(recipeId) {
+  let calendar = JSON.parse(localStorage.getItem("calendar")) || [];
+  //Making sure localstorage clears when calendar has been emptied:
+  let updatedCalendar = calendar.filter((item) => item.id != recipeId);
+  if (updatedCalendar.length === 0) {
+    localStorage.removeItem("calendar"); // clear calendar from localStorage
+  } else {
+    localStorage.setItem("calendar", JSON.stringify(updatedCalendar)); // update localstorage with the new calendar
+  }
+}
+//drag and drop to "trash", help from Chatgpt
+document.addEventListener("DOMContentLoaded", function () {
+  const removeButton = document.getElementById("remove-recipe-button");
+
+  removeButton.addEventListener("dragover", function (e) {
+    e.preventDefault();
+    removeButton.classList.add("drag-hover");
+  });
+
+  removeButton.addEventListener("dragleave", function (e) {
+    removeButton.classList.remove("drag-hover");
+  });
+
+  removeButton.addEventListener("drop", function (e) {
+    e.preventDefault();
+    removeButton.classList.remove("drag-hover");
+
+    const recipeId = e.dataTransfer.getData("recipeId");
+    if (!recipeId) {
+      console.warn("No recipe ID found during drop!");
+      return;
+    }
+
+    removeFromCalendar(recipeId);
+    localStorage.setItem("calendarByDate", JSON.stringify(calendarByDate)); //update the change in localstorage
+    renderDraggableRecipes();
+    generateCalendarGrid();
+    alert("Recipe removed from calendar!");
+  });
+});
 
 // Generate the calendar grid
 function generateCalendarGrid() {

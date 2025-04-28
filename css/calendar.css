@@ -151,3 +151,19 @@
   object-fit: cover;
   border-radius: 5px;
 }
+
+#remove-recipe-button {
+  position: absolute;
+  right: 3rem;
+  font-size: large;
+  width: 3em;
+  height: 3em;
+  background-color: white;
+  border: solid #ccc;
+  border-radius: 1em;
+}
+
+#remove-recipe-button.drag-hover {
+  background-color: #ccc;
+  transition: background-color 0.3s ease;
+}
