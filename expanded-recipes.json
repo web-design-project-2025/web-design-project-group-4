@@ -50,8 +50,8 @@
     "id": 3,
     "image": "../images/pexels-alesiakozik-6120244.jpg",
     "name": "Tofu Broccoli Stew",
-    "instructions": "Cube firm tofu and pan-fry until golden. In a pot, saut\u00e9 garlic and ginger, add broccoli and cooked tofu. Pour in 3 cups of vegetable broth, 2 tablespoons soy sauce, and simmer for 15 minutes.",
-    "time_minutes": 35,
+    "instructions": "Cube firm tofu and pan-fry until golden. In a pot, sauté garlic and ginger, add broccoli and cooked tofu. Pour in 3 cups of vegetable broth, 2 tablespoons soy sauce, and simmer for 15 minutes.",
+    "time_minutes": 20,
     "tags": "Vegan",
     "serving_size": 1,
     "nutrition": {
@@ -120,8 +120,8 @@
   {
     "id": 6,
     "image": "../images/chickenpotato.png",
-    "name": "Chicken with Potato",
-    "instruction": "Season chicken thighs and potato wedges with olive oil, rosemary, and garlic. Roast in oven at 200°C (400°F) for 40–45 minutes, flipping halfway through.",
+    "name": "Chicken and Potato",
+    "instructions": "Season chicken thighs and potato wedges with olive oil, rosemary, and garlic. Roast in oven at 200°C (400°F) for 40–45 minutes, flipping halfway through.",
     "time_minutes": "50 min",
     "tags": "Classic",
     "serving_size": 1,
@@ -144,8 +144,8 @@
   {
     "id": 7,
     "image": "../images/chickenpenne.png",
-    "name": "Chicken with Penne Pasta",
-    "instruction": "Boil penne pasta. Cook diced chicken in a pan until golden. Add cooked pasta and combine with your preferred creamy sauce (e.g., cream + parmesan). Heat through and serve.",
+    "name": "Grilled Chicken Pasta",
+    "instructions": "Boil penne pasta. Cook diced chicken in a pan until golden. Add cooked pasta and combine with your preferred creamy sauce (e.g., cream + parmesan). Heat through and serve.",
     "time_minutes": 40,
     "tags": "Classic",
     "serving_size": 1,
@@ -170,9 +170,9 @@
   {
     "id": 8,
     "image": "../images/sausagemeatballs.png",
-    "name": "Sausage with Meatballs",
-    "instruction": "Fry sausages and meatballs in a pan with a splash of oil until cooked through. Serve with mashed potatoes, rice, or pasta of your choice.",
-    "time_minutes": 45,
+    "name": "One Pan Sausage and Meatballs",
+    "instructions": "Fry sausages and meatballs in a pan with a splash of oil until cooked through. Serve with mashed potatoes, rice, or pasta of your choice.",
+    "time_minutes": 30,
     "tags": "Classic",
     "serving_size": 1,
     "nutrition": {
@@ -195,8 +195,8 @@
   {
     "id": 9,
     "image": "../images/15-min-fix.jpg",
-    "name": "Avocado Toast",
-    "instruction": "Toast whole grain bread. Mash avocado with lemon juice and salt. Spread on toast. Optionally top with chili flakes, seeds, or egg.",
+    "name": "Egg and Avocado Toast",
+    "instructions": "Toast whole grain bread. Mash avocado with lemon juice and salt. Spread on toast. Optionally top with chili flakes, seeds, or egg.",
     "time_minutes": 15,
     "tags": "Classic",
     "serving_size": 1,
@@ -219,8 +219,8 @@
     "id": 10,
     "image": "../images/nostalgia-noms.jpg",
     "name": "Pasta Bolognese",
-    "instruction": "Sauté ground meat, onions, and garlic. Add tomato paste, canned tomatoes, and herbs. Simmer for 30–40 minutes. Cook pasta, combine, and serve.",
-    "time_minutes": 60,
+    "instructions": "Sauté ground meat, onions, and garlic. Add tomato paste, canned tomatoes, and herbs. Simmer for 30–40 minutes. Cook pasta, combine, and serve.",
+    "time_minutes": 30,
     "tags": "Classic",
     "serving_size": 1,
     "nutrition": {
@@ -248,9 +248,9 @@
   {
     "id": 11,
     "image": "../images/protein-packed.jpg",
-    "name": "Chickpea",
+    "name": "Chickpea Bento",
     "quantity": 0,
-    "instruction": "Heat olive oil in a pan. Add drained chickpeas and season with cumin, paprika, and salt. Cook for 10 minutes until golden and fragrant. Serve warm or cold as a side or salad topping.",
+    "instructions": "Heat olive oil in a pan. Add drained chickpeas and season with cumin, paprika, and salt. Cook for 10 minutes until golden and fragrant. Serve warm or cold with rice, avocado, and a side or salad topping.",
     "time_minutes": 20,
     "tags": "Vegetarian",
     "serving_size": 1,
@@ -271,10 +271,10 @@
   {
     "id": 12,
     "image": "../images/couscoustomato.png",
-    "name": "Couscous with Carrot and Tomatoes",
+    "name": "Sweet Potato with Couscous Salad",
     "quantity": 0,
-    "instruction": "Prepare couscous with boiling water and let it steam. Meanwhile, saut\u00e9 chopped carrots and tomatoes in olive oil. Mix vegetables into couscous and season with herbs and salt.",
-    "time_minutes": 30,
+    "instructions": "Prepare couscous with boiling water and let it steam. Meanwhile, saut\u00e9 chopped carrots and tomatoes in olive oil. Mix vegetables into couscous and season with herbs and salt.",
+    "time_minutes": 35,
     "tags": "Vegetarian",
     "serving_size": 1,
     "nutrition": {
@@ -294,10 +294,10 @@
   {
     "id": 13,
     "image": "../images/ricepeas.png",
-    "name": "Rice and Chickpea",
+    "name": "Chickpea Curry",
     "quantity": 0,
-    "instruction": "Cook rice according to package instructions. Stir in canned or pre-cooked chickpeas, olive oil, and spices like turmeric and garlic powder. Mix and serve.",
-    "time_minutes": 30,
+    "instructions": "Cook rice according to package instructions. Cook canned or pre-cooked chickpeas in olive oil, and spices like turmeric and garlic powder. Add the curry paste and coconut milk, let simmer for 5 minutes. Mix and serve.",
+    "time_minutes": 20,
     "tags": "Vegetarian",
     "serving_size": 1,
     "nutrition": {
@@ -310,6 +310,8 @@
       "1 cup rice",
       "1 can chickpeas",
       "1 tbsp olive oil",
+      "1 tbsp curry paste",
+      "1/2 cup coconut milk",
       "Salt",
       "Pepper"
     ]
@@ -317,10 +319,10 @@
   {
     "id": 14,
     "image": "../images/plant-based.jpg",
-    "name": "Plant Based Mix",
+    "name": "Lentil Taco Bowl",
     "quantity": 0,
-    "instruction": "Combine cooked tofu, black beans, corn, and saut\u00e9ed vegetables in a bowl. Season with chili powder, lime juice, and salt. Serve warm or cold.",
-    "time_minutes": 25,
+    "instructions": "Combine cooked tofu, black beans, corn, and saut\u00e9ed vegetables in a bowl. Season with chili powder, lime juice, and salt. Serve warm or cold.",
+    "time_minutes": 15,
     "tags": "Vegetarian",
     "serving_size": 1,
     "nutrition": {
@@ -341,9 +343,9 @@
   {
     "id": 15,
     "image": "../images/vegetarian1.png",
-    "name": "Couscous, Chickpea, and Grilled Tomato",
+    "name": "Veggie Tray Bake",
     "quantity": 0,
-    "instruction": "Grill halved tomatoes in a pan. Cook couscous with boiling water and mix with chickpeas. Combine everything and season with olive oil, lemon juice, salt, and pepper.",
+    "instructions": "Grill halved tomatoes in a pan. Cook couscous with boiling water and mix with chickpeas. Combine everything and season with olive oil, lemon juice, salt, and pepper.",
     "time_minutes": 35,
     "tags": "Vegetarian",
     "serving_size": 1,
@@ -366,8 +368,8 @@
     "image": "../images/vegetarian2.png",
     "name": "Aubergine Stew with Rice",
     "quantity": 0,
-    "instruction": "Saut\u00e9 chopped aubergines with onion and garlic until soft. Add canned tomatoes and simmer for 25 minutes. Serve over freshly cooked rice.",
-    "time_minutes": 45,
+    "instructions": "Saute chopped aubergines with onion and garlic until soft. Add canned tomatoes and simmer for 25 minutes. Serve over freshly cooked rice.",
+    "time_minutes": 30,
     "tags": "Vegetarian",
     "serving_size": 1,
     "nutrition": {
@@ -388,9 +390,9 @@
   {
     "id": 17,
     "image": "../images/paneradfisk.png",
-    "name": "Fried Fish with Potato",
+    "name": "Crispy Fish with Potato Wedges",
     "quantity": 0,
-    "instruction": "Season fish fillets and coat lightly with flour. Fry in oil until golden. Boil or roast potatoes with herbs and olive oil. Serve together.",
+    "instructions": "Season fish fillets and coat lightly with flour. Fry in oil until golden. Boil or roast potatoes with herbs and olive oil. Serve together.",
     "time_minutes": 40,
     "tags": "Fish",
     "serving_size": 1,
@@ -411,9 +413,9 @@
   {
     "id": 18,
     "image": "../images/torsk.png",
-    "name": "Fried Cod with Rice",
+    "name": "Fried Cod with Pearl Couscous",
     "quantity": 0,
-    "instruction": "Fry seasoned cod fillets until crispy. Steam rice and serve with saut\u00e9ed vegetables on the side.",
+    "instructions": "Fry seasoned cod fillets until crispy. Steam rice and serve with sauteed vegetables on the side.",
     "time_minutes": 35,
     "tags": "Fish",
     "serving_size": 1,
@@ -434,10 +436,10 @@
   {
     "id": 19,
     "image": "../images/salmon.png",
-    "name": "Salmon with Mashed Potato",
+    "name": "Salmon and Zucchini",
     "quantity": 0,
-    "instruction": "Pan-sear or bake salmon fillet. Boil potatoes, then mash with a bit of butter and milk. Season and serve.",
-    "time_minutes": 40,
+    "instructions": "Pan-sear or bake salmon fillet. Boil potatoes, then mash with a bit of butter and milk. Season and serve.",
+    "time_minutes": 30,
     "tags": "Fish",
     "serving_size": 1,
     "nutrition": {
@@ -457,10 +459,10 @@
   {
     "id": 20,
     "image": "../images/salmonpotato.png",
-    "name": "Salmon with Boiled Potato",
+    "name": "Salmon with Baby Potatoes",
     "quantity": 0,
-    "instruction": "Bake or pan-fry salmon with herbs. Boil potatoes and season with a bit of olive oil and parsley. Serve with a side salad.",
-    "time_minutes": 35,
+    "instructions": "Bake or pan-fry salmon with herbs. Boil potatoes and season with a bit of olive oil and parsley. Serve with a side salad.",
+    "time_minutes": 25,
     "tags": "Fish",
     "serving_size": 1,
     "nutrition": {
@@ -476,7 +478,7 @@
     "image": "../images/fish5.png",
     "name": "Cod with Couscous",
     "quantity": 0,
-    "instruction": "Steam or pan-fry cod fillets. Prepare couscous and toss with chopped vegetables and herbs. Serve the fish over couscous.",
+    "instructions": "Steam or pan-fry cod fillets. Prepare couscous and toss with chopped vegetables and herbs. Serve the fish over couscous.",
     "time_minutes": 30,
     "tags": "Fish",
     "serving_size": 1,
@@ -492,6 +494,449 @@
       "1/2 cup vegetables",
       "1 tbsp olive oil",
       "Salt"
+    ]
+  },
+  {
+    "id": 22,
+    "image": "../html/images/pastadots.jpg",
+    "name": "Chili Mac and Cheese",
+    "quantity": 0,
+    "instructions": "Cook macaroni. In another pan, brown ground beef, add spices and tomato sauce. Stir in cooked pasta and cheese until melted.",
+    "time_minutes": 20,
+    "tags": "Vegetarian",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 225,
+      "protein_g": 18,
+      "carbs_g": 23,
+      "fat_g": 11
+    },
+    "ingredients": [
+      "1/2 cup macaroni",
+      "100g ground beef",
+      "1/2 cup tomato sauce",
+      "1 cup shredded cheese",
+      "1 tsp chili powder"
+    ]
+  },
+  {
+    "id": 23,
+    "image": "../images/vicky-ng-yIh0i6TYGrs-unsplash.jpg",
+    "name": "Berry Smoothie Bowl",
+    "quantity": 0,
+    "instructions": "Blend frozen berries with yogurt and a splash of milk. Pour into a bowl and top with granola and fresh fruit.",
+    "time_minutes": 15,
+    "tags": "Breakfast",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 300,
+      "protein_g": 12,
+      "carbs_g": 35,
+      "fat_g": 10
+    },
+    "ingredients": [
+      "1 cup frozen berries",
+      "1/2 cup yogurt",
+      "1/4 cup milk",
+      "1/4 cup granola",
+      "Fresh fruit for topping"
+    ]
+  },
+  {
+    "id": 24,
+    "image": "../images/olga-kudriavtseva-s8J1DlRroo0-unsplash.jpg",
+    "name": "Steel Cut Oats",
+    "quantity": 0,
+    "instructions": "Simmer steel cut oats in water or milk until tender. Stir in cinnamon and top with fruit or nuts.",
+    "time_minutes": 15,
+    "tags": "Breakfast",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 250,
+      "protein_g": 7,
+      "carbs_g": 40,
+      "fat_g": 5
+    },
+    "ingredients": [
+      "1/2 cup steel cut oats",
+      "1 1/2 cups water or milk",
+      "1 tsp cinnamon",
+      "1/4 cup fruit or nuts",
+      "Pinch of salt"
+    ]
+  },
+  {
+    "id": 25,
+    "image": "../images/kateryna-t-nCHzHaJandM-unsplash.jpg",
+    "name": "Garlic Shrimp Spaghetti",
+    "quantity": 0,
+    "instructions": "Cook spaghetti. In a pan, sauté shrimp with garlic and olive oil. Toss shrimp with cooked spaghetti and parsley.",
+    "time_minutes": 15,
+    "tags": "Seafood",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 450,
+      "protein_g": 30,
+      "carbs_g": 40,
+      "fat_g": 16
+    },
+    "ingredients": [
+      "200g shrimp",
+      "150g spaghetti",
+      "2 cloves garlic",
+      "2 tbsp olive oil",
+      "Fresh parsley"
+    ]
+  },
+  {
+    "id": 26,
+    "image": "../html/images/kirill-tonkikh-NFQi_2HUNRI-unsplash.jpg",
+    "name": "Beef Ramen",
+    "quantity": 0,
+    "instructions": "Cook ramen noodles. In a pan, sauté beef slices with soy sauce. Combine noodles, beef, broth, and vegetables.",
+    "time_minutes": 25,
+    "tags": "Noodles",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 500,
+      "protein_g": 28,
+      "carbs_g": 45,
+      "fat_g": 18
+    },
+    "ingredients": [
+      "1 ramen packet",
+      "100g beef strips",
+      "2 cups broth",
+      "1 cup mixed vegetables",
+      "2 tbsp soy sauce"
+    ]
+  },
+  {
+    "id": 27,
+    "image": "../images/fernando-andrade-tsFV9YBJTnk-unsplash.jpg",
+    "name": "Quesadillas",
+    "quantity": 0,
+    "instructions": "Fill tortillas with cheese and optional toppings. Fold and cook on a skillet until golden and melty.",
+    "time_minutes": 10,
+    "tags": "Mexican",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 400,
+      "protein_g": 20,
+      "carbs_g": 30,
+      "fat_g": 22
+    },
+    "ingredients": [
+      "2 tortillas",
+      "1 cup shredded cheese",
+      "Optional: chicken, peppers, onions",
+      "Butter for cooking"
+    ]
+  },
+  {
+    "id": 28,
+    "image": "../html/images/emanuel-ekstrom-3-4eMmRBXjA-unsplash.jpg",
+    "name": "Swedish Meatballs",
+    "quantity": 0,
+    "instructions": "Mix ground beef with breadcrumbs and spices. Form meatballs and cook. Simmer in creamy gravy sauce.",
+    "time_minutes": 30,
+    "tags": "Dinner",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 300,
+      "protein_g": 17,
+      "carbs_g": 15,
+      "fat_g": 18
+    },
+    "ingredients": [
+      "150g ground beef",
+      "2 tbs cup breadcrumbs",
+      "1/4 cup cream",
+      "1 tbsp butter",
+      "Salt and pepper"
+    ]
+  },
+  {
+    "id": 29,
+    "image": "../html/images/nathan-dumlao-5eROVOJW2bA-unsplash.jpg",
+    "name": "Cowboy Soup",
+    "quantity": 0,
+    "instructions": "Brown beef, add beans, vegetables, tomatoes, and broth. Simmer until hearty and flavorful.",
+    "time_minutes": 30,
+    "tags": "Soup",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 250,
+      "protein_g": 16,
+      "carbs_g": 20,
+      "fat_g": 9
+    },
+    "ingredients": [
+      "100g ground beef",
+      "1/2 can beans",
+      "1/2 can diced tomatoes",
+      "1 cup broth",
+      "1/2 cup mixed vegetables"
+    ]
+  },
+  {
+    "id": 30,
+    "image": "../html/images/pixzolo-photography-BiWb1Y8wpZk-unsplash.jpg",
+    "name": "Grilled Cheese",
+    "quantity": 0,
+    "instructions": "Butter bread slices. Place cheese between slices and grill until golden brown and melty.",
+    "time_minutes": 10,
+    "tags": "Snack",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 350,
+      "protein_g": 12,
+      "carbs_g": 30,
+      "fat_g": 22
+    },
+    "ingredients": ["2 slices bread", "2 slices cheese", "1 tbsp butter"]
+  },
+  {
+    "id": 31,
+    "image": "../html/images/pinar-kucuk-QuFm328PV88-unsplash.jpg",
+    "name": "Spaghetti Carbonara",
+    "quantity": 0,
+    "instructions": "Cook spaghetti. Whisk eggs and cheese. Toss hot pasta with egg mixture, crispy bacon, and pepper.",
+    "time_minutes": 15,
+    "tags": "Pasta",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 275,
+      "protein_g": 20,
+      "carbs_g": 45,
+      "fat_g": 28
+    },
+    "ingredients": [
+      "100g spaghetti",
+      "1 eggs",
+      "1/4 cup parmesan cheese",
+      "3 strips bacon",
+      "Black pepper"
+    ]
+  },
+  {
+    "id": 32,
+    "image": "../html/images/pexels-ella-olsson-572949-3026801.jpg",
+    "name": "Lemon Vanilla Pudding",
+    "quantity": 0,
+    "instructions": "Whisk together milk, sugar, cornstarch, vanilla, and lemon zest. Cook until thickened. Chill before serving.",
+    "time_minutes": 15,
+    "tags": "Dessert",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 150,
+      "protein_g": 3,
+      "carbs_g": 20,
+      "fat_g": 6
+    },
+    "ingredients": [
+      "1 cups milk",
+      "1/6 cup sugar",
+      "1 tbsp cornstarch",
+      "1/2 tsp vanilla extract",
+      "1/2 tbsp lemon zest"
+    ]
+  },
+  {
+    "id": 33,
+    "image": "../html/images/jaqueline-pelzer-MytHEJlzdcM-unsplash.jpg",
+    "name": "Banana Pancakes",
+    "quantity": 0,
+    "instructions": "Mash bananas and mix with eggs and flour. Cook on a skillet until golden on both sides.",
+    "time_minutes": 20,
+    "tags": "Breakfast",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 200,
+      "protein_g": 5,
+      "carbs_g": 22,
+      "fat_g": 8
+    },
+    "ingredients": [
+      "1 ripe bananas",
+      "1 eggs",
+      "1/3 cup flour",
+      "1/3 cup milk",
+      "1 tsp baking powder",
+      "Butter for cooking"
+    ]
+  },
+  {
+    "id": 34,
+    "image": "../html/images/sheri-silver-Gwmz82WzD8w-unsplash.jpg",
+    "name": "Pizza Buns",
+    "quantity": 0,
+    "instructions": "Roll out dough, top with sauce, cheese, and toppings. Roll up, slice, and bake until golden.",
+    "time_minutes": 20,
+    "tags": "Snack",
+    "serving_size": 4,
+    "nutrition": {
+      "calories": 320,
+      "protein_g": 12,
+      "carbs_g": 30,
+      "fat_g": 16
+    },
+    "ingredients": [
+      "Pizza dough",
+      "1/2 cup pizza sauce",
+      "1 cup shredded cheese",
+      "Toppings of choice"
+    ]
+  },
+  {
+    "id": 35,
+    "image": "../images/leanna-myers-t97ZUtiJ6hc-unsplash.jpg",
+    "name": "Chicken Caesar Flatbreads",
+    "quantity": 0,
+    "instructions": "Grill chicken and slice. Spread Caesar dressing on flatbreads, top with chicken, lettuce, and parmesan.",
+    "time_minutes": 25,
+    "tags": "Lunch",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 225,
+      "protein_g": 17,
+      "carbs_g": 15,
+      "fat_g": 11
+    },
+    "ingredients": [
+      "1 flatbreads",
+      "150g grilled chicken",
+      "Lettuce",
+      "Parmesan cheese",
+      "1 tbsp Caesar dressing"
+    ]
+  },
+  {
+    "id": 36,
+    "image": "../images/irina-del-Abfak0EbjMw-unsplash.jpg",
+    "name": "Grilled Chicken Salad",
+    "quantity": 0,
+    "instructions": "Grill chicken breast and slice. Toss with mixed greens, tomatoes, cucumbers, and a light dressing.",
+    "time_minutes": 20,
+    "tags": "Salad",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 200,
+      "protein_g": 15,
+      "carbs_g": 5,
+      "fat_g": 9
+    },
+    "ingredients": [
+      "150g chicken breast",
+      "1 cups mixed greens",
+      "1/2 cup tomatoes",
+      "1/2 cup cucumbers",
+      "1 tbsp vinaigrette"
+    ]
+  },
+  {
+    "id": 37,
+    "image": "../images/drake-whitney-KwT-QQj1-NE-unsplash.jpg",
+    "name": "Peanut Tofu Stirfry",
+    "quantity": 0,
+    "instructions": "Sauté tofu cubes until golden. Stir fry with vegetables and toss in a peanut sauce.",
+    "time_minutes": 20,
+    "tags": "Vegetarian",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 225,
+      "protein_g": 25,
+      "carbs_g": 15,
+      "fat_g": 12
+    },
+    "ingredients": [
+      "100g firm tofu",
+      "1 cups mixed vegetables",
+      "1 tbsp peanut butter",
+      "1/2 tbsp soy sauce",
+      "1/2 tbsp sesame oil"
+    ]
+  },
+  {
+    "id": 38,
+    "image": "../html/images/falafel.jpg",
+    "name": "Falafel Nourish Bowl",
+    "quantity": 0,
+    "instructions": "Arrange cooked falafel, greens, veggies, and grains in a bowl. Drizzle with tahini sauce.",
+    "time_minutes": 25,
+    "tags": "Vegan",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 420,
+      "protein_g": 18,
+      "carbs_g": 35,
+      "fat_g": 22
+    },
+    "ingredients": [
+      "3 falafels",
+      "1 cup greens",
+      "1/2 cup cooked grains",
+      "1/2 cup vegetables",
+      "2 tbsp tahini sauce"
+    ]
+  },
+  {
+    "id": 39,
+    "image": "../html/images/pexels-ella-olsson-572949-3026808.jpg",
+    "name": "Tofu and Chanterelle Ramen",
+    "quantity": 0,
+    "instructions": "Sauté garlic, ginger, and chanterelles in sesame oil. Add tofu cubes and lightly brown. Pour in vegetable broth, stir in soy sauce and miso paste. Simmer, then cook ramen noodles in the broth. Add spinach at the end. Serve with spring onions, sesame seeds, and chili flakes.",
+    "time_minutes": 20,
+    "tags": "Vegan",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 480,
+      "protein_g": 22,
+      "carbs_g": 45,
+      "fat_g": 20
+    },
+    "ingredients": [
+      "100g firm tofu, cubed",
+      "80g chanterelle mushrooms",
+      "1 tbsp sesame oil",
+      "500ml vegetable broth",
+      "1 tbsp soy sauce",
+      "1 tbsp miso paste",
+      "1 clove garlic, minced",
+      "1 tsp grated ginger",
+      "80g ramen noodles",
+      "50g baby spinach",
+      "1 spring onion, sliced",
+      "1 tsp sesame seeds",
+      "Chili flakes (optional)"
+    ]
+  },
+  {
+    "id": 40,
+    "image": "../images/poke-bowl.jpg",
+    "name": "Salmon Poke Bowl",
+    "quantity": 0,
+    "instructions": "Cube fresh salmon and marinate briefly in soy sauce, sesame oil, and a touch of rice vinegar. Assemble a bowl with cooked rice, salmon, cucumber, avocado, and edamame. Top with sesame seeds and optional sriracha mayo.",
+    "time_minutes": 30,
+    "tags": "Fish",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 550,
+      "protein_g": 30,
+      "carbs_g": 45,
+      "fat_g": 25
+    },
+    "ingredients": [
+      "100g fresh salmon, cubed",
+      "1 tbsp soy sauce",
+      "1 tsp sesame oil",
+      "1 tsp rice vinegar",
+      "150g cooked rice",
+      "1/4 cucumber, sliced",
+      "1/2 avocado, sliced",
+      "50g edamame beans",
+      "1 tsp sesame seeds",
+      "Sriracha mayo (optional)"
     ]
   }
 ]
