@@ -493,5 +493,365 @@
       "1 tbsp olive oil",
       "Salt"
     ]
+  },
+  {
+    "id": 22,
+    "image": "../images/chili_mac_cheese.png",
+    "name": "Chili Mac and Cheese",
+    "quantity": 0,
+    "instruction": "Cook macaroni. In another pan, brown ground beef, add spices and tomato sauce. Stir in cooked pasta and cheese until melted.",
+    "time_minutes": 30,
+    "tags": "Pasta",
+    "serving_size": 2,
+    "nutrition": {
+      "calories": 550,
+      "protein_g": 35,
+      "carbs_g": 45,
+      "fat_g": 22
+    },
+    "ingredients": [
+      "1 cup macaroni",
+      "200g ground beef",
+      "1/2 cup tomato sauce",
+      "1 cup shredded cheese",
+      "1 tsp chili powder"
+    ]
+  },
+  {
+    "id": 23,
+    "image": "../images/berry_smoothie_bowl.png",
+    "name": "Berry Smoothie Bowl",
+    "quantity": 0,
+    "instruction": "Blend frozen berries with yogurt and a splash of milk. Pour into a bowl and top with granola and fresh fruit.",
+    "time_minutes": 10,
+    "tags": "Breakfast",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 300,
+      "protein_g": 12,
+      "carbs_g": 35,
+      "fat_g": 10
+    },
+    "ingredients": [
+      "1 cup frozen berries",
+      "1/2 cup yogurt",
+      "1/4 cup milk",
+      "1/4 cup granola",
+      "Fresh fruit for topping"
+    ]
+  },
+  {
+    "id": 24,
+    "image": "../images/steel_cut_oats.png",
+    "name": "Steel Cut Oats",
+    "quantity": 0,
+    "instruction": "Simmer steel cut oats in water or milk until tender. Stir in cinnamon and top with fruit or nuts.",
+    "time_minutes": 25,
+    "tags": "Breakfast",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 250,
+      "protein_g": 7,
+      "carbs_g": 40,
+      "fat_g": 5
+    },
+    "ingredients": [
+      "1/2 cup steel cut oats",
+      "1 1/2 cups water or milk",
+      "1 tsp cinnamon",
+      "1/4 cup fruit or nuts",
+      "Pinch of salt"
+    ]
+  },
+  {
+    "id": 25,
+    "image": "../images/garlic_shrimp_spaghetti.png",
+    "name": "Garlic Shrimp Spaghetti",
+    "quantity": 0,
+    "instruction": "Cook spaghetti. In a pan, sauté shrimp with garlic and olive oil. Toss shrimp with cooked spaghetti and parsley.",
+    "time_minutes": 20,
+    "tags": "Seafood",
+    "serving_size": 2,
+    "nutrition": {
+      "calories": 450,
+      "protein_g": 30,
+      "carbs_g": 40,
+      "fat_g": 16
+    },
+    "ingredients": [
+      "200g shrimp",
+      "150g spaghetti",
+      "2 cloves garlic",
+      "2 tbsp olive oil",
+      "Fresh parsley"
+    ]
+  },
+  {
+    "id": 26,
+    "image": "../images/beef_ramen.png",
+    "name": "Beef Ramen",
+    "quantity": 0,
+    "instruction": "Cook ramen noodles. In a pan, sauté beef slices with soy sauce. Combine noodles, beef, broth, and vegetables.",
+    "time_minutes": 25,
+    "tags": "Noodles",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 500,
+      "protein_g": 28,
+      "carbs_g": 45,
+      "fat_g": 18
+    },
+    "ingredients": [
+      "1 ramen packet",
+      "100g beef strips",
+      "2 cups broth",
+      "1 cup mixed vegetables",
+      "2 tbsp soy sauce"
+    ]
+  },
+  {
+    "id": 27,
+    "image": "../images/quesadillas.png",
+    "name": "Quesadillas",
+    "quantity": 0,
+    "instruction": "Fill tortillas with cheese and optional toppings. Fold and cook on a skillet until golden and melty.",
+    "time_minutes": 15,
+    "tags": "Mexican",
+    "serving_size": 2,
+    "nutrition": {
+      "calories": 400,
+      "protein_g": 20,
+      "carbs_g": 30,
+      "fat_g": 22
+    },
+    "ingredients": [
+      "2 tortillas",
+      "1 cup shredded cheese",
+      "Optional: chicken, peppers, onions",
+      "Butter for cooking"
+    ]
+  },
+  {
+    "id": 28,
+    "image": "../images/swedish_meatballs.png",
+    "name": "Swedish Meatballs",
+    "quantity": 0,
+    "instruction": "Mix ground beef with breadcrumbs and spices. Form meatballs and cook. Simmer in creamy gravy sauce.",
+    "time_minutes": 40,
+    "tags": "Dinner",
+    "serving_size": 2,
+    "nutrition": {
+      "calories": 600,
+      "protein_g": 35,
+      "carbs_g": 25,
+      "fat_g": 35
+    },
+    "ingredients": [
+      "250g ground beef",
+      "1/4 cup breadcrumbs",
+      "1/2 cup cream",
+      "1 tbsp butter",
+      "Salt and pepper"
+    ]
+  },
+  {
+    "id": 29,
+    "image": "../images/cowboy_soup.png",
+    "name": "Cowboy Soup",
+    "quantity": 0,
+    "instruction": "Brown beef, add beans, vegetables, tomatoes, and broth. Simmer until hearty and flavorful.",
+    "time_minutes": 35,
+    "tags": "Soup",
+    "serving_size": 3,
+    "nutrition": {
+      "calories": 450,
+      "protein_g": 28,
+      "carbs_g": 35,
+      "fat_g": 18
+    },
+    "ingredients": [
+      "200g ground beef",
+      "1 can beans",
+      "1 can diced tomatoes",
+      "1 cup broth",
+      "1 cup mixed vegetables"
+    ]
+  },
+  {
+    "id": 30,
+    "image": "../images/grilled_cheese.png",
+    "name": "Grilled Cheese",
+    "quantity": 0,
+    "instruction": "Butter bread slices. Place cheese between slices and grill until golden brown and melty.",
+    "time_minutes": 10,
+    "tags": "Snack",
+    "serving_size": 1,
+    "nutrition": {
+      "calories": 350,
+      "protein_g": 12,
+      "carbs_g": 30,
+      "fat_g": 22
+    },
+    "ingredients": ["2 slices bread", "2 slices cheese", "1 tbsp butter"]
+  },
+  {
+    "id": 31,
+    "image": "../images/spaghetti_carbonara.png",
+    "name": "Spaghetti Carbonara",
+    "quantity": 0,
+    "instruction": "Cook spaghetti. Whisk eggs and cheese. Toss hot pasta with egg mixture, crispy bacon, and pepper.",
+    "time_minutes": 20,
+    "tags": "Pasta",
+    "serving_size": 2,
+    "nutrition": {
+      "calories": 550,
+      "protein_g": 25,
+      "carbs_g": 45,
+      "fat_g": 28
+    },
+    "ingredients": [
+      "200g spaghetti",
+      "2 eggs",
+      "1/2 cup parmesan cheese",
+      "4 strips bacon",
+      "Black pepper"
+    ]
+  },
+  {
+    "id": 32,
+    "image": "../images/lemon_vanilla_pudding.png",
+    "name": "Lemon Vanilla Pudding",
+    "quantity": 0,
+    "instruction": "Whisk together milk, sugar, cornstarch, vanilla, and lemon zest. Cook until thickened. Chill before serving.",
+    "time_minutes": 20,
+    "tags": "Dessert",
+    "serving_size": 2,
+    "nutrition": {
+      "calories": 300,
+      "protein_g": 6,
+      "carbs_g": 40,
+      "fat_g": 12
+    },
+    "ingredients": [
+      "2 cups milk",
+      "1/3 cup sugar",
+      "2 tbsp cornstarch",
+      "1 tsp vanilla extract",
+      "1 tbsp lemon zest"
+    ]
+  },
+  {
+    "id": 33,
+    "image": "../images/banana_pancakes.png",
+    "name": "Banana Pancakes",
+    "quantity": 0,
+    "instruction": "Mash bananas and mix with eggs and flour. Cook on a skillet until golden on both sides.",
+    "time_minutes": 15,
+    "tags": "Breakfast",
+    "serving_size": 2,
+    "nutrition": {
+      "calories": 400,
+      "protein_g": 10,
+      "carbs_g": 45,
+      "fat_g": 16
+    },
+    "ingredients": [
+      "2 ripe bananas",
+      "2 eggs",
+      "1/2 cup flour",
+      "1 tsp baking powder",
+      "Butter for cooking"
+    ]
+  },
+  {
+    "id": 34,
+    "image": "../images/pizza_buns.png",
+    "name": "Pizza Buns",
+    "quantity": 0,
+    "instruction": "Roll out dough, top with sauce, cheese, and toppings. Roll up, slice, and bake until golden.",
+    "time_minutes": 25,
+    "tags": "Snack",
+    "serving_size": 4,
+    "nutrition": {
+      "calories": 320,
+      "protein_g": 12,
+      "carbs_g": 30,
+      "fat_g": 16
+    },
+    "ingredients": [
+      "Pizza dough",
+      "1/2 cup pizza sauce",
+      "1 cup shredded cheese",
+      "Toppings of choice"
+    ]
+  },
+  {
+    "id": 35,
+    "image": "../images/chicken_caesar_flatbreads.png",
+    "name": "Chicken Caesar Flatbreads",
+    "quantity": 0,
+    "instruction": "Grill chicken and slice. Spread Caesar dressing on flatbreads, top with chicken, lettuce, and parmesan.",
+    "time_minutes": 20,
+    "tags": "Lunch",
+    "serving_size": 2,
+    "nutrition": {
+      "calories": 450,
+      "protein_g": 28,
+      "carbs_g": 30,
+      "fat_g": 22
+    },
+    "ingredients": [
+      "2 flatbreads",
+      "200g grilled chicken",
+      "Lettuce",
+      "Parmesan cheese",
+      "2 tbsp Caesar dressing"
+    ]
+  },
+  {
+    "id": 36,
+    "image": "../images/grilled_chicken_salad.png",
+    "name": "Grilled Chicken Salad",
+    "quantity": 0,
+    "instruction": "Grill chicken breast and slice. Toss with mixed greens, tomatoes, cucumbers, and a light dressing.",
+    "time_minutes": 20,
+    "tags": "Salad",
+    "serving_size": 2,
+    "nutrition": {
+      "calories": 350,
+      "protein_g": 30,
+      "carbs_g": 10,
+      "fat_g": 18
+    },
+    "ingredients": [
+      "200g chicken breast",
+      "2 cups mixed greens",
+      "1/2 cup tomatoes",
+      "1/2 cup cucumbers",
+      "2 tbsp vinaigrette"
+    ]
+  },
+  {
+    "id": 37,
+    "image": "../images/peanut_tofu_stir_fry.png",
+    "name": "Peanut Tofu Stir Fry",
+    "quantity": 0,
+    "instruction": "Sauté tofu cubes until golden. Stir fry with vegetables and toss in a peanut sauce.",
+    "time_minutes": 25,
+    "tags": "Vegetarian",
+    "serving_size": 2,
+    "nutrition": {
+      "calories": 450,
+      "protein_g": 20,
+      "carbs_g": 30,
+      "fat_g": 24
+    },
+    "ingredients": [
+      "200g firm tofu",
+      "2 cups mixed vegetables",
+      "2 tbsp peanut butter",
+      "1 tbsp soy sauce",
+      "1 tbsp sesame oil"
+    ]
   }
 ]
