@@ -273,7 +273,7 @@
     "image": "../images/couscoustomato.png",
     "name": "Sweet Potato with Couscous Salad",
     "quantity": 0,
-    "instructions": "Prepare couscous with boiling water and let it steam. Meanwhile, saut\u00e9 chopped carrots and tomatoes in olive oil. Mix vegetables into couscous and season with herbs and salt.",
+    "instructions": "Prepare couscous with boiling water and let it steam. Meanwhile, sauté chopped carrots and tomatoes in olive oil. Mix vegetables into couscous and season with herbs and salt.",
     "time_minutes": 35,
     "tags": "Vegetarian",
     "serving_size": 1,
@@ -321,7 +321,7 @@
     "image": "../images/plant-based.jpg",
     "name": "Lentil Taco Bowl",
     "quantity": 0,
-    "instructions": "Combine cooked tofu, black beans, corn, and saut\u00e9ed vegetables in a bowl. Season with chili powder, lime juice, and salt. Serve warm or cold.",
+    "instructions": "Combine cooked tofu, black beans, corn, and sauteed vegetables in a bowl. Season with chili powder, lime juice, and salt. Serve warm or cold.",
     "time_minutes": 15,
     "tags": "Vegetarian",
     "serving_size": 1,
@@ -526,7 +526,7 @@
     "quantity": 0,
     "instructions": "Blend frozen berries with yogurt and a splash of milk. Pour into a bowl and top with granola and fresh fruit.",
     "time_minutes": 15,
-    "tags": "Breakfast",
+    "tags": "Vegan",
     "serving_size": 1,
     "nutrition": {
       "calories": 300,
@@ -549,7 +549,7 @@
     "quantity": 0,
     "instructions": "Simmer steel cut oats in water or milk until tender. Stir in cinnamon and top with fruit or nuts.",
     "time_minutes": 15,
-    "tags": "Breakfast",
+    "tags": "Classic",
     "serving_size": 1,
     "nutrition": {
       "calories": 250,
@@ -572,7 +572,7 @@
     "quantity": 0,
     "instructions": "Cook spaghetti. In a pan, sauté shrimp with garlic and olive oil. Toss shrimp with cooked spaghetti and parsley.",
     "time_minutes": 15,
-    "tags": "Seafood",
+    "tags": "Fish",
     "serving_size": 1,
     "nutrition": {
       "calories": 450,
@@ -595,7 +595,7 @@
     "quantity": 0,
     "instructions": "Cook ramen noodles. In a pan, sauté beef slices with soy sauce. Combine noodles, beef, broth, and vegetables.",
     "time_minutes": 25,
-    "tags": "Noodles",
+    "tags": "Classic",
     "serving_size": 1,
     "nutrition": {
       "calories": 500,
@@ -618,7 +618,7 @@
     "quantity": 0,
     "instructions": "Fill tortillas with cheese and optional toppings. Fold and cook on a skillet until golden and melty.",
     "time_minutes": 10,
-    "tags": "Mexican",
+    "tags": "Vegetarian",
     "serving_size": 1,
     "nutrition": {
       "calories": 400,
@@ -640,7 +640,7 @@
     "quantity": 0,
     "instructions": "Mix ground beef with breadcrumbs and spices. Form meatballs and cook. Simmer in creamy gravy sauce.",
     "time_minutes": 30,
-    "tags": "Dinner",
+    "tags": "Classic",
     "serving_size": 1,
     "nutrition": {
       "calories": 300,
@@ -663,7 +663,7 @@
     "quantity": 0,
     "instructions": "Brown beef, add beans, vegetables, tomatoes, and broth. Simmer until hearty and flavorful.",
     "time_minutes": 30,
-    "tags": "Soup",
+    "tags": "Classic",
     "serving_size": 1,
     "nutrition": {
       "calories": 250,
@@ -686,7 +686,7 @@
     "quantity": 0,
     "instructions": "Butter bread slices. Place cheese between slices and grill until golden brown and melty.",
     "time_minutes": 10,
-    "tags": "Snack",
+    "tags": "Vegetarian",
     "serving_size": 1,
     "nutrition": {
       "calories": 350,
@@ -703,7 +703,7 @@
     "quantity": 0,
     "instructions": "Cook spaghetti. Whisk eggs and cheese. Toss hot pasta with egg mixture, crispy bacon, and pepper.",
     "time_minutes": 15,
-    "tags": "Pasta",
+    "tags": "Classic",
     "serving_size": 1,
     "nutrition": {
       "calories": 275,
@@ -726,7 +726,7 @@
     "quantity": 0,
     "instructions": "Whisk together milk, sugar, cornstarch, vanilla, and lemon zest. Cook until thickened. Chill before serving.",
     "time_minutes": 15,
-    "tags": "Dessert",
+    "tags": "Vegetarian",
     "serving_size": 1,
     "nutrition": {
       "calories": 150,
@@ -749,7 +749,7 @@
     "quantity": 0,
     "instructions": "Mash bananas and mix with eggs and flour. Cook on a skillet until golden on both sides.",
     "time_minutes": 20,
-    "tags": "Breakfast",
+    "tags": "Classic",
     "serving_size": 1,
     "nutrition": {
       "calories": 200,
@@ -773,7 +773,7 @@
     "quantity": 0,
     "instructions": "Roll out dough, top with sauce, cheese, and toppings. Roll up, slice, and bake until golden.",
     "time_minutes": 20,
-    "tags": "Snack",
+    "tags": "Vegetarian",
     "serving_size": 4,
     "nutrition": {
       "calories": 320,
@@ -795,7 +795,7 @@
     "quantity": 0,
     "instructions": "Grill chicken and slice. Spread Caesar dressing on flatbreads, top with chicken, lettuce, and parmesan.",
     "time_minutes": 25,
-    "tags": "Lunch",
+    "tags": "Classic",
     "serving_size": 1,
     "nutrition": {
       "calories": 225,
@@ -818,7 +818,7 @@
     "quantity": 0,
     "instructions": "Grill chicken breast and slice. Toss with mixed greens, tomatoes, cucumbers, and a light dressing.",
     "time_minutes": 20,
-    "tags": "Salad",
+    "tags": "Classic",
     "serving_size": 1,
     "nutrition": {
       "calories": 200,
