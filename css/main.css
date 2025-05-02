@@ -86,6 +86,27 @@ h1 {
   font-weight: 500;
 }
 
+.trending-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-group {
+  display: flex;
+  padding-top: 10px;
+}
+
+.liked-container {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.calendar-container {
+  width: 45px !important;
+  height: 45px !important;
+}
+
 /* PLANNER CARD */
 .planner-card {
   background-color: #f0f8f5;
