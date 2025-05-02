@@ -82,7 +82,7 @@
   {
     "id": 9,
     "image": "../images/15-min-fix.jpg",
-    "name": "Avocado Toast",
+    "name": "Egg and Avocado Toast",
     "quantity": 0,
     "description": "A simple and healthy breakfast of avocado on toast.",
     "instruction": "Mash avocado and spread on toasted bread. Top with seasoning or toppings of choice.",
@@ -204,6 +204,150 @@
     "instruction": "Cook cod fillets and serve over couscous with vegetables.",
     "time": "30 min",
     "tags": "Fish"
+  },
+  {
+    "id": 22,
+    "image": "../html/images/pastadots.jpg",
+    "name": "Chili Mac and Cheese",
+    "quantity": 0,
+    "instructions": "Cook macaroni. In another pan, brown ground beef, add spices and tomato sauce. Stir in cooked pasta and cheese until melted.",
+    "time_minutes": 20,
+    "tags": "Vegetarian"
+  },
+  {
+    "id": 23,
+    "image": "../images/vicky-ng-yIh0i6TYGrs-unsplash.jpg",
+    "name": "Berry Smoothie Bowl",
+    "quantity": 0,
+    "instructions": "Blend frozen berries with yogurt and a splash of milk. Pour into a bowl and top with granola and fresh fruit.",
+    "time_minutes": 15,
+    "tags": "Vegan"
+  },
+  {
+    "id": 24,
+    "image": "../images/olga-kudriavtseva-s8J1DlRroo0-unsplash.jpg",
+    "name": "Steel Cut Oats",
+    "quantity": 0,
+    "instructions": "Simmer steel cut oats in water or milk until tender. Stir in cinnamon and top with fruit or nuts.",
+    "time_minutes": 15,
+    "tags": "Classic"
+  },
+  {
+    "id": 25,
+    "image": "../images/kateryna-t-nCHzHaJandM-unsplash.jpg",
+    "name": "Garlic Shrimp Spaghetti",
+    "quantity": 0,
+    "instructions": "Cook spaghetti. In a pan, sauté shrimp with garlic and olive oil. Toss shrimp with cooked spaghetti and parsley.",
+    "time_minutes": 15,
+    "tags": "Fish"
+  },
+  {
+    "id": 26,
+    "image": "../html/images/kirill-tonkikh-NFQi_2HUNRI-unsplash.jpg",
+    "name": "Beef Ramen",
+    "quantity": 0,
+    "instructions": "Cook ramen noodles. In a pan, sauté beef slices with soy sauce. Combine noodles, beef, broth, and vegetables.",
+    "time_minutes": 25,
+    "tags": "Classic"
+  },
+  {
+    "id": 27,
+    "image": "../images/fernando-andrade-tsFV9YBJTnk-unsplash.jpg",
+    "name": "Quesadillas",
+    "quantity": 0,
+    "instructions": "Fill tortillas with cheese and optional toppings. Fold and cook on a skillet until golden and melty.",
+    "time_minutes": 10,
+    "tags": "Vegetarian"
+  },
+  {
+    "id": 28,
+    "image": "../html/images/emanuel-ekstrom-3-4eMmRBXjA-unsplash.jpg",
+    "name": "Swedish Meatballs",
+    "quantity": 0,
+    "instructions": "Mix ground beef with breadcrumbs and spices. Form meatballs and cook. Simmer in creamy gravy sauce.",
+    "time_minutes": 30,
+    "tags": "Classic"
+  },
+  {
+    "id": 29,
+    "image": "../html/images/nathan-dumlao-5eROVOJW2bA-unsplash.jpg",
+    "name": "Cowboy Soup",
+    "quantity": 0,
+    "instructions": "Brown beef, add beans, vegetables, tomatoes, and broth. Simmer until hearty and flavorful.",
+    "time_minutes": 30,
+    "tags": "Classic"
+  },
+  {
+    "id": 30,
+    "image": "../html/images/pixzolo-photography-BiWb1Y8wpZk-unsplash.jpg",
+    "name": "Grilled Cheese",
+    "quantity": 0,
+    "instructions": "Butter bread slices. Place cheese between slices and grill until golden brown and melty.",
+    "time_minutes": 10,
+    "tags": "Vegetarian"
+  },
+  {
+    "id": 31,
+    "image": "../html/images/pinar-kucuk-QuFm328PV88-unsplash.jpg",
+    "name": "Spaghetti Carbonara",
+    "quantity": 0,
+    "instructions": "Cook spaghetti. Whisk eggs and cheese. Toss hot pasta with egg mixture, crispy bacon, and pepper.",
+    "time_minutes": 15,
+    "tags": "Classic"
+  },
+  {
+    "id": 32,
+    "image": "../html/images/pexels-ella-olsson-572949-3026801.jpg",
+    "name": "Lemon Vanilla Pudding",
+    "quantity": 0,
+    "instructions": "Whisk together milk, sugar, cornstarch, vanilla, and lemon zest. Cook until thickened. Chill before serving.",
+    "time_minutes": 15,
+    "tags": "Vegetarian"
+  },
+  {
+    "id": 33,
+    "image": "../html/images/jaqueline-pelzer-MytHEJlzdcM-unsplash.jpg",
+    "name": "Banana Pancakes",
+    "quantity": 0,
+    "instructions": "Mash bananas and mix with eggs and flour. Cook on a skillet until golden on both sides.",
+    "time_minutes": 20,
+    "tags": "Classic"
+  },
+  {
+    "id": 34,
+    "image": "../html/images/sheri-silver-Gwmz82WzD8w-unsplash.jpg",
+    "name": "Pizza Buns",
+    "quantity": 0,
+    "instructions": "Roll out dough, top with sauce, cheese, and toppings. Roll up, slice, and bake until golden.",
+    "time_minutes": 20,
+    "tags": "Vegetarian"
+  },
+  {
+    "id": 35,
+    "image": "../images/leanna-myers-t97ZUtiJ6hc-unsplash.jpg",
+    "name": "Chicken Caesar Flatbreads",
+    "quantity": 0,
+    "instructions": "Grill chicken and slice. Spread Caesar dressing on flatbreads, top with chicken, lettuce, and parmesan.",
+    "time_minutes": 25,
+    "tags": "Classic"
+  },
+  {
+    "id": 36,
+    "image": "../images/irina-del-Abfak0EbjMw-unsplash.jpg",
+    "name": "Grilled Chicken Salad",
+    "quantity": 0,
+    "instructions": "Grill chicken breast and slice. Toss with mixed greens, tomatoes, cucumbers, and a light dressing.",
+    "time_minutes": 20,
+    "tags": "Classic"
+  },
+  {
+    "id": 37,
+    "image": "../images/drake-whitney-KwT-QQj1-NE-unsplash.jpg",
+    "name": "Peanut Tofu Stirfry",
+    "quantity": 0,
+    "instructions": "Sauté tofu cubes until golden. Stir fry with vegetables and toss in a peanut sauce.",
+    "time_minutes": 20,
+    "tags": "Vegetarian"
   },
   {
     "id": 38,
