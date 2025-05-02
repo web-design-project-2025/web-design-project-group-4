@@ -161,6 +161,11 @@ footer {
   text-align: left;
 }
 
+.view-more {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 /* OTHER */
 
 a {
