@@ -120,6 +120,14 @@ h2 {
   height: 45px !important;
 }
 
+.view-all {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
+
 /* PLANNER CARD */
 .planner-card {
   background-color: #f0f8f5;
