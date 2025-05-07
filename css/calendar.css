@@ -167,3 +167,22 @@
   background-color: #ccc;
   transition: background-color 0.3s ease;
 }
+
+/*Responsiveness, mobile*/
+@media screen and (max-width: 520px) {
+  .calendar-day,
+  .day-name {
+    min-height: 50px;
+    padding: 0;
+  }
+  .recipe-draggable {
+    width: 10%;
+  }
+  #remove-recipe-button {
+    top: 25em;
+    right: 1rem;
+  }
+  h1 {
+    margin-bottom: 1em;
+  }
+}

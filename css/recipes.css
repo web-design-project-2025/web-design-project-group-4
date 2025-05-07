@@ -147,3 +147,16 @@ figcaption {
   text-align: right;
   margin-right: 100px;
 }
+
+/*Responsiveness, mobile*/
+@media screen and (max-width: 520px) {
+  h2 {
+    margin-top: 3em;
+  }
+  .filter {
+    margin-top: 2em;
+    margin-right: 0;
+    display: flex;
+    justify-content: end;
+  }
+}
