@@ -36,9 +36,12 @@ header {
   font-weight: 600;
   word-spacing: 10px;
   padding: 5px;
+  white-space: nowrap; /* Prevents line wrapping */
+  overflow: hidden; /* Hides overflow if it doesn’t fit */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 20px;
 }
+
 /* HERO SECTION */
 
 h1 {
@@ -223,4 +226,75 @@ img {
 
 .nav-links a:hover::after {
   transform: scaleX(1);
+}
+
+/*Responsiveness header items*/
+
+@media screen and (max-width: 520px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: start;
+    margin: 0;
+    padding-left: 2em;
+    gap: 0.3em;
+    padding-top: 0;
+  }
+  nav {
+    padding: 0;
+  }
+  header {
+    width: 100%;
+    flex-direction: column;
+  }
+  .logo {
+    padding-top: 1em;
+    padding-left: 1em;
+  }
+  .banner {
+    height: 2.5em;
+    font-size: medium;
+    align-content: center;
+    word-spacing: 0.7px;
+  }
+}
+
+/*Responsiveness home page items*/
+
+@media screen and (max-width: 520px) {
+  .hero-section {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .philosophy {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .trending-recipes,
+  .trending-recipes-grid,
+  .planner-card,
+  .share-card {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .planner-card,
+  .share-text {
+    text-align: center;
+  }
+  .share-card,
+  .planner-card {
+    margin-top: 3em;
+  }
+}
+
+/*Responsiveness footer items*/
+
+@media screen and (max-width: 520px) {
+  .footer-links {
+    flex-direction: column;
+  }
 }

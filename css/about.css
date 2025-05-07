@@ -27,3 +27,27 @@ main {
   justify-content: center; /* centers horizontally */
   align-items: center; /* centers vertically */
 }
+
+/*Responsiveness, mobile*/
+@media screen and (max-width: 520px) {
+  .about-images {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    gap: 1em;
+    width: 50%;
+    justify-content: center;
+  }
+  .content-container {
+    padding: 0;
+  }
+  h2 {
+    margin-top: 1em;
+  }
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

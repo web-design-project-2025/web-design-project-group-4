@@ -77,3 +77,12 @@ footer {
   gap: 20px;
   padding: 20px;
 }
+
+/*Responsiveness, mobile*/
+@media screen and (max-width: 520px) {
+  .meal-plan-section,
+  .weekly-menu {
+    display: flex;
+    flex-direction: column;
+  }
+}
