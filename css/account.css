@@ -69,7 +69,7 @@
 
 .view-all {
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 100px;
   text-decoration: underline;
   color: black;
   font-weight: bold;
@@ -81,6 +81,7 @@
   width: 20%;
   border-radius: 5px;
   padding: 10px;
+  margin: 50px;
 }
 
 .g_id_signin {
