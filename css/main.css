@@ -97,8 +97,13 @@ h2 {
 .trending-recipes-card {
   background-color: #f0f8f5;
   font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease;
 }
 
+.trending-recipes-card:hover {
+  transform: translateY(-7px);
+}
 .trending-footer {
   display: flex;
   justify-content: space-between;
@@ -146,6 +151,11 @@ h2 {
   border-radius: 5px;
   margin-top: 10px;
   font-weight: 600;
+  transition: background-color 0.5s ease-in-out transform 0.5s ease;
+}
+.planner-button:hover {
+  background-color: darkgreen;
+  transform: scale(1.03);
 }
 
 /* SHARE CARD */
