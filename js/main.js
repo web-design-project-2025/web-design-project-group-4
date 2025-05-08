@@ -223,3 +223,20 @@ function addRecipeToDate(recipeId, date) {
     console.log(`Saved ${recipe.name} to ${date}`);
   }
 }
+const emaiInput = document.getElementById("email");
+const subscribeBtn = document.getElementById("subscribe-btn");
+function subscribe() {
+  const email = emaiInput.value.trim();
+  if (email.length > 0) {
+    alert("Thanks for subscribing to our newsletter!");
+  } else {
+    alert("please enter your e-mail address");
+  }
+}
+subscribeBtn.addEventListener("click", subscribe);
+
+emaiInput.addEventListener("keypress", function (event) {
+  if (event.key === "Enter") {
+    subscribe();
+  }
+});
