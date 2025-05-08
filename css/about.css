@@ -11,9 +11,10 @@ h2 {
   display: flex;
   flex-direction: column;
   width: 20%;
-  gap: 4em;
+  gap: 3em;
   margin-right: 3em;
   transform: translateY(-1em);
+  padding-top: 2rem;
 }
 
 .content-container {
@@ -26,6 +27,14 @@ main {
   display: flex;
   justify-content: center; /* centers horizontally */
   align-items: center; /* centers vertically */
+}
+
+.footer-text {
+  text-align: left;
+}
+
+.view-more {
+  text-align: left;
 }
 
 /*Responsiveness, mobile*/

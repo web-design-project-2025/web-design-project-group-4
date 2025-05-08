@@ -5,9 +5,6 @@ h1 {
   font-weight: 700;
   font-style: normal;
   font-size: 3rem;
-  font-size: 2rem;
-  color: #2e603b;
-  text-align: center;
 }
 
 .recipes {
@@ -20,7 +17,7 @@ h1 {
 
 .recipe-box {
   background-color: #f0f8f5;
-  color: #378c64;
+  color: black;
   padding: 12px 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: "Poppins", sans-serif;
@@ -53,15 +50,9 @@ h1 {
   display: inline-block;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 2rem;
-}
-
 h2 {
   font-size: 1.3rem;
-  color: #2e603b;
+  color: #378c64;
   margin-bottom: 0.5rem;
 }
 
