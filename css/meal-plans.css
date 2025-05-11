@@ -84,10 +84,21 @@ footer {
 }
 
 /*Responsiveness, mobile*/
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 720px) {
   .meal-plan-section,
   .weekly-menu {
     display: flex;
     flex-direction: column;
+  }
+}
+/*Responsiveness, ipad*/
+@media screen and (max-width: 1024px) {
+  .meal-plan-section,
+  .weekly-menu {
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+    gap: 20px;
+    margin: 20px;
   }
 }
