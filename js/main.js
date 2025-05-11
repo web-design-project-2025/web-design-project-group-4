@@ -240,3 +240,11 @@ emaiInput.addEventListener("keypress", function (event) {
     subscribe();
   }
 });
+
+//menu toggle help from https://www.w3schools.com/howto/howto_js_mobile_navbar.asp and chatgpt
+const mobileMenu = document.getElementById("mobile-menu");
+const navLinks = document.querySelector(".nav-collapse");
+
+mobileMenu.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
