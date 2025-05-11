@@ -16,24 +16,28 @@ fetch("../expanded-recipes.json")
 
     if (recipe) {
       // Display recipe details
+      // Toggle visibility for instructions on mobile,
+      // help from Garrit Shaaps video https://play.ju.se/media/Web+and+User+Interface+Design+-+Advanced+CSS+Example+Part+1/0_96cyudpe
       const detailContainer = document.getElementById("detail-container");
       detailContainer.innerHTML = `
-         <div class="header-container">
+        
+            <div class="header-container">
   <h1 class="recipe-title">${recipe.name}</h1>
 </div>
 
 <div class="recipe-detail-container">
-<div class="mobile-tabs">
-  <input type="radio" name="tab" id="tab-ingredients" checked>
-  <label for="tab-ingredients">Ingredients</label>
-
-  <input type="radio" name="tab" id="tab-instructions">
-  <label for="tab-instructions">Instructions</label>
-</div>
-
-
-  <div class="left-column content-section ingredients-content">
+  <div class="left-column">
     <img src="${recipe.image}" alt="${recipe.name}" class="recipe-image" />
+
+      <div class="mobile-tabs">
+  <div class="toggle-tab">
+  <input id="toggle" type="checkbox"/>
+  <label for="toggle">Instructions</label>
+  <div class="instructions">
+        <p>${recipe.instructions}</p>
+</div>
+  </div>
+</div>
 
       <div class="recipe-section">
         <div class="recipe-box">
@@ -49,9 +53,9 @@ fetch("../expanded-recipes.json")
           }" type="button">Save Recipe</button>
           <button class="add-button" type="button">Add to Calendar</button>
         </div>
-
+           
         <div class="ingredients">
-          <h2>Ingredients</h2>
+        <h2>Ingredients</h2>
           <ul>
             ${recipe.ingredients
               .map((ingredient) => `<li>${ingredient}</li>`)
@@ -75,15 +79,13 @@ fetch("../expanded-recipes.json")
       </div>
     </div>
 
-  <div class="right-column content-section instructions-content">
-      <div class="instructions">
+  <div class="right-column">
+  <div class="instructions">
         <h2>Instructions</h2>
         <p>${recipe.instructions}</p>
       </div>
     </div>
   </div>
-
-
 
       `;
     } else {
