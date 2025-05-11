@@ -120,7 +120,7 @@ on small screens from ChatGPT */
     display: flex;
     gap: 1rem;
     justify-content: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
 
   .mobile-tabs input[type="radio"] {
@@ -137,17 +137,31 @@ on small screens from ChatGPT */
     transition: background-color 0.3s;
   }
 
-  .mobile-tabs input[type="radio"]:checked + label {
+  .mobile-tabs label:hover {
     background-color: #378c64;
     color: #fff;
   }
 
-  #tab-ingredients:checked ~ .content-sections .ingredients-content {
-    display: block;
+  #toggle {
+    display: none;
   }
 
-  /* Show Instructions when tab-instructions is checked */
-  #tab-instructions:checked ~ .content-sections .instructions-content {
-    display: block;
+  #toggle:checked ~ .instructions {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    text-align: center;
+  }
+
+  #toggle:checked ~ .mobile-tabs label {
+    justify-content: center;
+  }
+
+  .instructions {
+    display: none;
+  }
+
+  .recipe-section {
+    padding-top: 0;
   }
 }
