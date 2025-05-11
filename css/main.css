@@ -4,8 +4,11 @@ body {
 }
 .menu-toggle {
   display: none;
+  cursor: pointer;
 }
-
+.nav-collapse.active {
+  display: flex;
+}
 nav,
 .nav-links {
   display: flex;

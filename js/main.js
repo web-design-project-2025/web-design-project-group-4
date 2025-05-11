@@ -1,5 +1,22 @@
+//menu toggle help from https://www.w3schools.com/howto/howto_js_mobile_navbar.asp and chatgpt
+document.addEventListener("DOMContentLoaded", () => {
+  const toggle = document.getElementById("mobile-menu");
+  const collapse = document.getElementById("nav-collapse");
+
+  if (!toggle || !collapse) {
+    console.log("Could not find mobile-menu or nav-collapse");
+    return;
+  }
+
+  toggle.addEventListener("click", () => {
+    console.log("Toggling menu");
+    collapse.classList.toggle("active");
+  });
+});
 // Fetching json + Inspiration for function addtocalendar and removefromcalendar: https://www.youtube.com/watch?v=pRkHOD_nkH4&t=408s
 //Fetching json objects, storing in localstorage:
+console.log("✅ main.js is loaded");
+
 fetch("../recipes.json")
   .then(function (response) {
     return response.json();
@@ -239,12 +256,4 @@ emaiInput.addEventListener("keypress", function (event) {
   if (event.key === "Enter") {
     subscribe();
   }
-});
-
-//menu toggle help from https://www.w3schools.com/howto/howto_js_mobile_navbar.asp and chatgpt
-const mobileMenu = document.getElementById("mobile-menu");
-const navLinks = document.querySelector(".nav-collapse");
-
-mobileMenu.addEventListener("click", () => {
-  navLinks.classList.toggle("active");
 });
