@@ -2,6 +2,8 @@ body {
   background-color: #fffdf7;
   font-family: "Poppins", sans-serif;
 }
+
+/* NAV BAR AND MENU FUNCTIONS */
 .menu-toggle {
   display: none;
   cursor: pointer;
@@ -35,6 +37,8 @@ header {
   padding: 30px;
   object-fit: contain; /* prevents stretching */
 }
+
+/* Responsiveness */
 @media screen and (min-width: 1025px) {
   .nav-collapse {
     display: flex;
@@ -256,7 +260,7 @@ footer {
   text-decoration: underline;
 }
 
-/* OTHER */
+/* OTHER / text properties */
 
 a {
   text-decoration: none;
@@ -289,6 +293,8 @@ img {
   transform-origin: left;
   transition: transform 0.3s ease;
 }
+
+/* More responsiveness */
 
 .nav-links a:hover::after {
   transform: scaleX(1);

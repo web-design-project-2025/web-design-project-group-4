@@ -1,3 +1,4 @@
+/* CALENDAR GRID AND CONTENT */
 .calendar-recipe-image {
   width: 5%;
 }
@@ -5,9 +6,6 @@
   font-size: small;
   color: white;
   transform: translateY(-5em);
-  .added-recipes {
-    background-color: aliceblue;
-  }
 }
 
 .calendar-grid {
@@ -61,7 +59,8 @@
 }
 .recipe-draggable:hover {
   transform: scale(1.05);
-} /* Image inside draggable recipe */
+}
+/* Image inside draggable recipe */
 .recipe-draggable img {
   width: 100%;
   height: auto;

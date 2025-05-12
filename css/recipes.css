@@ -7,6 +7,13 @@ h1 {
   font-size: 3rem;
 }
 
+h2 {
+  font-size: 1.3rem;
+  color: #378c64;
+  margin-bottom: 0.5rem;
+}
+
+/* Recipe Cards */
 .recipes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -28,11 +35,13 @@ h1 {
   align-items: center;
 }
 
+/* Icons and Buttons */
 .icon-group {
   display: flex;
   gap: 2px;
   align-items: center;
 }
+
 .liked-container {
   width: 22px !important;
   height: 22px !important;
@@ -50,12 +59,7 @@ h1 {
   display: inline-block;
 }
 
-h2 {
-  font-size: 1.3rem;
-  color: #378c64;
-  margin-bottom: 0.5rem;
-}
-
+/* Scroll function */
 .scroll-wrapper {
   display: flex;
   align-items: center;
@@ -77,6 +81,16 @@ h2 {
   display: none;
 }
 
+.scroll-arrow {
+  font-size: 2rem;
+  border: none;
+  background: transparent;
+  color: #2e603b;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+/* Images and Animations */
 .recipe-box {
   flex: 0 0 23%;
   background-color: #fff;
@@ -105,23 +119,6 @@ figcaption {
   border-radius: 5px;
 }
 
-.liked-container,
-.calendar-container {
-  width: 18px;
-  height: 18px;
-  margin-left: 6px;
-  cursor: pointer;
-}
-
-.scroll-arrow {
-  font-size: 2rem;
-  border: none;
-  background: transparent;
-  color: #2e603b;
-  cursor: pointer;
-  padding: 0 10px;
-}
-
 .filter-button {
   background-color: #ff5e57;
   color: white;
@@ -139,7 +136,7 @@ figcaption {
   margin-right: 100px;
 }
 
-/*Responsiveness, mobile*/
+/* Responsiveness, mobile */
 @media screen and (max-width: 520px) {
   h2 {
     margin-top: 3em;
