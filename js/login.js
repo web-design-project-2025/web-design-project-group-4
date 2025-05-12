@@ -81,3 +81,14 @@ function redirectToLogin() {
     window.location.href = "login.html";
   }
 }
+
+// Sign out function with confirm pop up from https://www.w3schools.com/jsref/met_win_confirm.asp
+document.addEventListener("DOMContentLoaded", function () {
+  const signOutButton = document.getElementById("signOut");
+  signOutButton.addEventListener("click", function () {
+    if (confirm("Are you sure you want to sign out?")) {
+      localStorage.removeItem("user");
+      window.location.href = "login.html";
+    }
+  });
+});
