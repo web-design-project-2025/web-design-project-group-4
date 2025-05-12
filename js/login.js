@@ -11,7 +11,7 @@ function handleCredentialResponse(response) {
   localStorage.setItem("user", JSON.stringify(user));
   window.location.href = "account.html"; // redirect after login
 }
-
+//got this from google guide
 function parseJwt(token) {
   var base64Url = token.split(".")[1];
   var base64 = base64Url.replace(/-/g, "+").replace(/_/g, "/");
@@ -30,7 +30,6 @@ function parseJwt(token) {
 
 document.addEventListener("DOMContentLoaded", function () {
   const user = JSON.parse(localStorage.getItem("user"));
-
   if (user) {
     // Fill in the profile info
     document.querySelector(".profile-pic").src = user.profilePic;
@@ -66,6 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
           ).textContent = `You chose: ${selected.value}`;
         }
       });
+    loadFavorites();
   } else {
     //  redirect back to login page
     redirectToLogin();
@@ -92,3 +92,32 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+//saves recipe in your specific account
+function saveFavorite(recipeId) {
+  const user = JSON.parse(localStorage.getItem("user"));
+  if (!user || !user.email) return;
+
+  const favoritesKey = `favorites_${user.email}`;
+  let favorites = JSON.parse(localStorage.getItem(favoritesKey)) || [];
+
+  if (!favorites.includes(recipeId)) {
+    favorites.push(recipeId);
+    localStorage.setItem(favoritesKey, JSON.stringify(favorites));
+    console.log("Saved favorites for", user.email, favorites); // 👈
+  }
+}
+//loading favorite recipe
+function loadFavorites() {
+  const user = JSON.parse(localStorage.getItem("user"));
+  if (!user || !user.email) return;
+
+  const favoritesKey = `favorites_${user.email}`;
+  const favorites = JSON.parse(localStorage.getItem(favoritesKey)) || [];
+
+  console.log("Loading favorites for", user.email, favorites); // what account is logged in
+
+  favorites.forEach((recipeId) => {
+    displayRecipeById(recipeId);
+  });
+}
