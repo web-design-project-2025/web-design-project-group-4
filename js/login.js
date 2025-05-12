@@ -92,3 +92,29 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const userData = localStorage.getItem("user");
+
+  if (userData) {
+    const user = JSON.parse(userData);
+    const navRight = document.getElementById("nav-right");
+
+    const accountLink = document.getElementById("account-link");
+    if (accountLink) accountLink.remove();
+
+    const profileImg = document.createElement("img");
+    profileImg.src = user.profilePic;
+    profileImg.alt = user.name;
+    profileImg.title = user.name;
+    profileImg.classList.add("profile-pic");
+
+    const profileLink = document.createElement("a");
+    profileLink.href = "../html/account.html";
+    profileLink.appendChild(profileImg);
+
+    navRight.appendChild(profileLink);
+  } else {
+    console.log("User not logged in");
+  }
+});
