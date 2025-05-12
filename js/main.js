@@ -13,6 +13,38 @@ document.addEventListener("DOMContentLoaded", () => {
     collapse.classList.toggle("active");
   });
 });
+
+// Display profile picture when logged in https://chatgpt.com/share/682205f6-dfb8-8007-aedf-e095f8785ca2
+document.addEventListener("DOMContentLoaded", function () {
+  const user = JSON.parse(localStorage.getItem("user"));
+
+  if (user && user.profilePic) {
+    const accountLink = document.getElementById("account-link");
+    const loginLink = document.getElementById("login-link");
+
+    // Hide login link (optional if you still want to show both)
+    if (loginLink) {
+      loginLink.style.display = "none";
+    }
+
+    // Create profile image element
+    const img = document.createElement("img");
+    img.src = user.profilePic;
+    img.alt = user.name;
+    img.style.width = "40px";
+    img.style.height = "40px";
+    img.style.borderRadius = "50%";
+    img.style.objectFit = "cover";
+    img.style.marginLeft = "10px";
+    img.style.cursor = "pointer";
+    img.title = user.name;
+
+    // Replace "My Account" text with image
+    accountLink.textContent = "";
+    accountLink.appendChild(img);
+  }
+});
+
 // Fetching json + Inspiration for function addtocalendar and removefromcalendar: https://www.youtube.com/watch?v=pRkHOD_nkH4&t=408s
 //Fetching json objects, storing in localstorage:
 console.log("✅ main.js is loaded");
