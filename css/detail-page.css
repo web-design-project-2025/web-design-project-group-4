@@ -119,7 +119,7 @@ on small screens from ChatGPT */
   .mobile-tabs {
     display: flex;
     gap: 1rem;
-    justify-content: center;
+    justify-content: start;
     margin-bottom: 0;
   }
 
@@ -149,12 +149,8 @@ on small screens from ChatGPT */
   #toggle:checked ~ .instructions {
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    text-align: center;
-  }
-
-  #toggle:checked ~ .mobile-tabs label {
-    justify-content: center;
+    width: 100%;
+    text-align: start;
   }
 
   .instructions {
