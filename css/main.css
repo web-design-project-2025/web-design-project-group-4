@@ -73,14 +73,64 @@ header {
 .banner {
   background-color: #f0f8f5;
   color: #378c64;
-  text-align: center;
-  font-weight: 600;
+  height: 3em;
   word-spacing: 10px;
-  padding: 5px;
+  font-size: 24px;
+  overflow: hidden;
+  text-align: center;
   white-space: nowrap; /* Prevents line wrapping */
   overflow: hidden; /* Hides overflow if it doesn’t fit */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 20px;
+}
+
+.banner p {
+  line-height: 25px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/*Animation on banner, inspired by https://www.youtube.com/watch?v=CAsoMnaCt-I*/
+
+.banner span {
+  display: inline-block;
+  position: relative;
+  animation: animation 5s ease-in-out infinite;
+}
+
+@keyframes animation {
+  0%,
+  20% {
+    transform: translateY(0);
+  }
+  25%,
+  45% {
+    transform: translateY(-50px);
+  }
+  50%,
+  70% {
+    transform: translateY(-100px);
+  }
+  75%,
+  95% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+/*responsiveness on animation for mobile*/
+@media screen and (max-width: 530px) {
+  .banner {
+    word-spacing: normal;
+    height: 2.5em;
+  }
+  .banner p {
+    font-size: 15px;
+    line-height: 35px;
+  }
 }
 
 /* HERO SECTION */
@@ -452,13 +502,6 @@ img {
   .logo {
     width: 140px;
     padding: 1em;
-  }
-
-  .banner {
-    font-size: 0.9rem;
-    padding: 10px;
-    word-spacing: normal;
-    height: auto;
   }
 
   h1,
