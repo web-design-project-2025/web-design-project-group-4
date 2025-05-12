@@ -88,6 +88,26 @@ fetch("../expanded-recipes.json")
   </div>
 
       `;
+      //Add to Calendar
+      const calendarButton = document.querySelector(".add-button");
+      calendarButton?.addEventListener("click", () => {
+        addToCalendar(recipe.id);
+        alert("Added to calendar!");
+      });
+
+      //Add to Favourites
+      const saveButton = document.querySelector(".save-button");
+      saveButton?.addEventListener("click", () => {
+        const savedRecipes =
+          JSON.parse(localStorage.getItem("savedRecipes")) || [];
+        if (!savedRecipes.includes(recipe.id)) {
+          savedRecipes.push(recipe.id);
+          localStorage.setItem("savedRecipes", JSON.stringify(savedRecipes));
+          alert("Recipe saved!");
+        } else {
+          alert("Recipe already saved.");
+        }
+      });
     } else {
       document.getElementById("detail-container").innerHTML =
         "<p>Recipe not found.</p>";

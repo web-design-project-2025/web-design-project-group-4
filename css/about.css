@@ -1,3 +1,4 @@
+/* text properties */
 h2,
 p {
   text-align: center;
@@ -7,6 +8,7 @@ h2 {
   padding: 1em;
 }
 
+/* content */
 .about-images {
   display: flex;
   flex-direction: column;
@@ -29,6 +31,7 @@ main {
   align-items: center; /* centers vertically */
 }
 
+/* footer */
 .footer-text {
   text-align: left;
 }
@@ -37,7 +40,7 @@ main {
   text-align: left;
 }
 
-/*Responsiveness, mobile*/
+/* Responsiveness, mobile */
 @media screen and (max-width: 520px) {
   .about-images {
     display: flex;

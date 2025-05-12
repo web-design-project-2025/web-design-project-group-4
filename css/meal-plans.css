@@ -1,3 +1,4 @@
+/*MAIN*/
 h1 {
   text-align: center;
   color: #378c64;
@@ -11,6 +12,7 @@ main {
   padding: 2rem;
 }
 
+/* Meal Plan section */
 .meal-plans-intro {
   padding: 20px;
 }
@@ -28,6 +30,7 @@ main {
   text-align: center;
 }
 
+/* Weekly Menu section */
 .weekly-menu-intro {
   padding: 20px;
 }
@@ -52,6 +55,7 @@ main {
   padding-left: 10px;
 }
 
+/* Icons and Buttons */
 .icon-group {
   display: flex;
   padding-top: 10px;
@@ -68,6 +72,7 @@ main {
   height: 45px !important;
 }
 
+/* Images */
 .meal-plan-card img,
 .weekly-menu-card img {
   width: 100%;
@@ -77,13 +82,14 @@ main {
   aspect-ratio: 1.1;
 }
 
+/* Footer */
 footer {
   background-color: #f7f4ee;
   gap: 20px;
   padding: 20px;
 }
 
-/*Responsiveness, mobile*/
+/* Responsiveness, mobile */
 @media screen and (max-width: 720px) {
   .meal-plan-section,
   .weekly-menu {
@@ -91,7 +97,7 @@ footer {
     flex-direction: column;
   }
 }
-/*Responsiveness, ipad*/
+/* Responsiveness, ipad */
 @media screen and (max-width: 1024px) {
   .meal-plan-section,
   .weekly-menu {

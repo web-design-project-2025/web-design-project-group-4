@@ -1,3 +1,4 @@
+/* Recipe columns */
 .recipe-detail-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -40,6 +41,7 @@
   margin-bottom: 0.25rem;
 }
 
+/* Add to- buttons */
 .button-group {
   display: flex;
   gap: 0.5rem;
@@ -56,6 +58,7 @@
   cursor: pointer;
 }
 
+/* Ingredients, instructions, and nutrition */
 .ingredients ul {
   padding-left: 1.5rem;
 }
