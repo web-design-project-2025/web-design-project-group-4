@@ -1,3 +1,9 @@
+//get favorites depends on account
+function getFavoritesKey() {
+  const user = JSON.parse(localStorage.getItem("user"));
+  return user && user.email ? `favorites_${user.email}` : "favorites_guest";
+}
+
 // Click hearts
 const likedIcons = document.querySelectorAll(".liked-container");
 
@@ -11,7 +17,8 @@ likedIcons.forEach(function (icon) {
     }
 
     const recipes = JSON.parse(localStorage.getItem("recipes")) || [];
-    const favorites = JSON.parse(localStorage.getItem("favorite")) || [];
+    const favoritesKey = getFavoritesKey();
+    const favorites = JSON.parse(localStorage.getItem(favoritesKey)) || [];
 
     const recipe = recipes.find((r) => r.id == Number(likedId));
 
@@ -23,16 +30,14 @@ likedIcons.forEach(function (icon) {
     const index = favorites.findIndex((fav) => fav.id == recipe.id);
 
     if (index === -1) {
-      // Not in favorites  add it
       favorites.push(recipe);
       alert("Added to favorites!");
     } else {
-      // Already in favorites remove it
       favorites.splice(index, 1);
       alert("Removed from favorites!");
     }
 
-    localStorage.setItem("favorite", JSON.stringify(favorites));
+    localStorage.setItem(favoritesKey, JSON.stringify(favorites));
 
     updateFavoriteList();
   });
@@ -44,7 +49,8 @@ function updateFavoriteList() {
   );
 
   if (favoriteContainer) {
-    const favorites = JSON.parse(localStorage.getItem("favorite")) || [];
+    const favoritesKey = getFavoritesKey();
+    const favorites = JSON.parse(localStorage.getItem(favoritesKey)) || [];
 
     favoriteContainer.innerHTML = "";
 
@@ -53,8 +59,8 @@ function updateFavoriteList() {
       favoriteItem.classList.add("favorite-item");
 
       favoriteItem.innerHTML = `
-            <img src="${recipe.image}" alt="${recipe.name}" style="width:120px;height:120px;object-fit:cover;">
-          `;
+        <img src="${recipe.image}" alt="${recipe.name}" style="width:120px;height:120px;object-fit:cover;">
+      `;
 
       favoriteContainer.appendChild(favoriteItem);
     });

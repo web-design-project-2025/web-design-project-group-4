@@ -92,32 +92,3 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
-
-//saves recipe in your specific account
-function saveFavorite(recipeId) {
-  const user = JSON.parse(localStorage.getItem("user"));
-  if (!user || !user.email) return;
-
-  const favoritesKey = `favorites_${user.email}`;
-  let favorites = JSON.parse(localStorage.getItem(favoritesKey)) || [];
-
-  if (!favorites.includes(recipeId)) {
-    favorites.push(recipeId);
-    localStorage.setItem(favoritesKey, JSON.stringify(favorites));
-    console.log("Saved favorites for", user.email, favorites);
-  }
-}
-//loading favorite recipe
-function loadFavorites() {
-  const user = JSON.parse(localStorage.getItem("user"));
-  if (!user || !user.email) return;
-
-  const favoritesKey = `favorites_${user.email}`;
-  const favorites = JSON.parse(localStorage.getItem(favoritesKey)) || [];
-
-  console.log("Loading favorites for", user.email, favorites); // what account is logged in
-
-  favorites.forEach((recipeId) => {
-    displayRecipeById(recipeId);
-  });
-}
