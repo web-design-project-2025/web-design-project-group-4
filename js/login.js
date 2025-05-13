@@ -104,7 +104,7 @@ function saveFavorite(recipeId) {
   if (!favorites.includes(recipeId)) {
     favorites.push(recipeId);
     localStorage.setItem(favoritesKey, JSON.stringify(favorites));
-    console.log("Saved favorites for", user.email, favorites); // 👈
+    console.log("Saved favorites for", user.email, favorites);
   }
 }
 //loading favorite recipe
