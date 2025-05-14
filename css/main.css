@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #fffdf7;
   font-family: "Poppins", sans-serif;
@@ -22,6 +26,7 @@ nav,
   gap: 20px;
   list-style: none;
   text-align: left;
+  padding-right: 0;
 }
 header {
   background-color: #f7f4ee;
@@ -30,7 +35,7 @@ header {
 .nav-right {
   display: flex;
   gap: 20px;
-  margin-left: 30rem;
+  margin-left: auto;
 }
 .logo {
   width: 200px;
@@ -168,7 +173,6 @@ h2 {
 
 .trending-recipes {
   padding: 40px;
-  margin-left: 50px;
 }
 
 .trending-recipes-grid {
@@ -450,7 +454,7 @@ img {
   /* TRENDING RECIPES */
   .trending-recipes {
     padding: 20px;
-    margin: 0;
+    margin-left: O !important;
   }
 
   .trending-recipes-grid {
