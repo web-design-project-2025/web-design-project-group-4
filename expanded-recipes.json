@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "../images/pexels-alesiakozik-6541561.jpg",
+    "image": "images/pexels-alesiakozik-6541561.jpg",
     "name": "Hummus",
     "instructions": "Rinse and drain one can of chickpeas. In a food processor, blend chickpeas with tahini, the minced garlic clove, lemon juice, and olive oil. Blend until smooth. Add water for desired consistency. Season with salt.",
     "time_minutes": 40,
@@ -24,7 +24,7 @@
   },
   {
     "id": 2,
-    "image": "../images/pexels-alesiakozik-6544498.jpg",
+    "image": "images/pexels-alesiakozik-6544498.jpg",
     "name": "Soy Beef Soup",
     "instructions": "In a pot, sauteed onions, garlic, and carrots for 5 minutes. Add soy protein chunks and stir for 2 minutes. Pour in the vegetable broth, add herbs and seasonings, then simmer for 30 minutes or until tender.",
     "time_minutes": 45,
@@ -48,7 +48,7 @@
   },
   {
     "id": 3,
-    "image": "../images/pexels-alesiakozik-6120244.jpg",
+    "image": "images/pexels-alesiakozik-6120244.jpg",
     "name": "Tofu Broccoli Stew",
     "instructions": "Cube firm tofu and pan-fry until golden. In a pot, sauté garlic and ginger, add broccoli and cooked tofu. Pour in the vegetable broth, the soy sauce, and simmer for 15 minutes.",
     "time_minutes": 20,
@@ -71,7 +71,7 @@
   },
   {
     "id": 4,
-    "image": "../images/pexels-enginakyurt-2347311.jpg",
+    "image": "images/pexels-enginakyurt-2347311.jpg",
     "name": "Noodle Wok",
     "instructions": "Cook noodles separately. In a hot wok, stir-fry chopped vegetables in sesame oil. Add cooked noodles, the soy sauce, and a pinch of chili flakes. Toss for 3-4 minutes.",
     "time_minutes": 25,
@@ -95,7 +95,7 @@
   },
   {
     "id": 5,
-    "image": "../images/pexels-ella-olsson-572949-3026808.jpg",
+    "image": "images/pexels-ella-olsson-572949-3026808.jpg",
     "name": "Vegan Mushroom Stew",
     "instructions": "Sauteed a mix of mushrooms with diced onions and garlic. Add vegetable broth, thyme, and a splash of plant-based cream. Simmer for 30 minutes, stirring occasionally.",
     "time_minutes": 40,
@@ -119,7 +119,7 @@
   },
   {
     "id": 6,
-    "image": "../images/chickenpotato.png",
+    "image": "images/chickenpotato.png",
     "name": "Chicken and Potato",
     "instructions": "Season chicken thighs and potato wedges with olive oil, rosemary, and garlic. Roast in oven at 200°C (400°F) for 40–45 minutes, flipping halfway through.",
     "time_minutes": "50 min",
@@ -143,7 +143,7 @@
   },
   {
     "id": 7,
-    "image": "../images/chickenpenne.png",
+    "image": "images/chickenpenne.png",
     "name": "Grilled Chicken Pasta",
     "instructions": "Boil penne pasta. Cook diced chicken in a pan until golden. Add cooked pasta and combine with your preferred creamy sauce (e.g., cream + parmesan). Heat through and serve.",
     "time_minutes": 40,
@@ -169,7 +169,7 @@
   },
   {
     "id": 8,
-    "image": "../images/sausagemeatballs.png",
+    "image": "images/sausagemeatballs.png",
     "name": "One Pan Sausage and Meatballs",
     "instructions": "Fry sausages and meatballs in a pan with a splash of oil until cooked through. Serve with mashed potatoes, rice, or pasta of your choice.",
     "time_minutes": 30,
@@ -194,7 +194,7 @@
   },
   {
     "id": 9,
-    "image": "../images/15-min-fix.jpg",
+    "image": "images/15-min-fix.jpg",
     "name": "Egg and Avocado Toast",
     "instructions": "Toast whole grain bread. Mash avocado with lemon juice and salt. Spread on toast. Optionally top with chili flakes, seeds, or egg.",
     "time_minutes": 15,
@@ -217,7 +217,7 @@
   },
   {
     "id": 10,
-    "image": "../images/nostalgia-noms.jpg",
+    "image": "images/nostalgia-noms.jpg",
     "name": "Pasta Bolognese",
     "instructions": "Sauté ground meat, onions, and garlic. Add tomato paste, canned tomatoes, and herbs. Simmer for 30–40 minutes. Cook pasta, combine, and serve.",
     "time_minutes": 30,
@@ -247,7 +247,7 @@
   },
   {
     "id": 11,
-    "image": "../images/protein-packed.jpg",
+    "image": "images/protein-packed.jpg",
     "name": "Chickpea Bento",
     "quantity": 0,
     "instructions": "Heat olive oil in a pan. Add drained chickpeas and season with cumin, paprika, and salt. Cook for 10 minutes until golden and fragrant. Serve warm or cold with rice, avocado, and a side or salad topping.",
@@ -270,7 +270,7 @@
   },
   {
     "id": 12,
-    "image": "../images/couscoustomato.png",
+    "image": "images/couscoustomato.png",
     "name": "Sweet Potato with Couscous Salad",
     "quantity": 0,
     "instructions": "Prepare couscous with boiling water and let it steam. Meanwhile, sauté chopped carrots and tomatoes in olive oil. Mix vegetables into couscous and season with herbs and salt.",
@@ -293,7 +293,7 @@
   },
   {
     "id": 13,
-    "image": "../images/ricepeas.png",
+    "image": "images/ricepeas.png",
     "name": "Chickpea Curry",
     "quantity": 0,
     "instructions": "Cook rice according to package instructions. Cook canned or pre-cooked chickpeas in olive oil, and spices like turmeric and garlic powder. Add the curry paste and coconut milk, let simmer for 5 minutes. Mix and serve.",
@@ -318,7 +318,7 @@
   },
   {
     "id": 14,
-    "image": "../images/plant-based.jpg",
+    "image": "images/plant-based.jpg",
     "name": "Lentil Taco Bowl",
     "quantity": 0,
     "instructions": "Combine cooked tofu, black beans, corn, and sauteed vegetables in a bowl. Season with chili powder, lime juice, and salt. Serve warm or cold.",
@@ -342,7 +342,7 @@
   },
   {
     "id": 15,
-    "image": "../images/vegetarian1.png",
+    "image": "images/vegetarian1.png",
     "name": "Veggie Tray Bake",
     "quantity": 0,
     "instructions": "Grill halved tomatoes in a pan. Cook couscous with boiling water and mix with chickpeas. Combine everything and season with olive oil, lemon juice, salt, and pepper.",
@@ -365,7 +365,7 @@
   },
   {
     "id": 16,
-    "image": "../images/vegetarian2.png",
+    "image": "images/vegetarian2.png",
     "name": "Aubergine Stew with Rice",
     "quantity": 0,
     "instructions": "Saute chopped aubergines with onion and garlic until soft. Add canned tomatoes and simmer for 25 minutes. Serve over freshly cooked rice.",
@@ -389,7 +389,7 @@
   },
   {
     "id": 17,
-    "image": "../images/paneradfisk.png",
+    "image": "images/paneradfisk.png",
     "name": "Crispy Fish with Potato Wedges",
     "quantity": 0,
     "instructions": "Season fish fillets and coat lightly with flour. Fry in oil until golden. Boil or roast potatoes with herbs and olive oil. Serve together.",
@@ -412,7 +412,7 @@
   },
   {
     "id": 18,
-    "image": "../images/torsk.png",
+    "image": "images/torsk.png",
     "name": "Fried Cod with Pearl Couscous",
     "quantity": 0,
     "instructions": "Fry seasoned cod fillets until crispy. Steam rice and serve with sauteed vegetables on the side.",
@@ -435,7 +435,7 @@
   },
   {
     "id": 19,
-    "image": "../images/salmon.png",
+    "image": "images/salmon.png",
     "name": "Salmon and Zucchini",
     "quantity": 0,
     "instructions": "Pan-sear or bake salmon fillet. Boil potatoes, then mash with a bit of butter and milk. Season and serve.",
@@ -458,7 +458,7 @@
   },
   {
     "id": 20,
-    "image": "../images/salmonpotato.png",
+    "image": "images/salmonpotato.png",
     "name": "Salmon with Baby Potatoes",
     "quantity": 0,
     "instructions": "Bake or pan-fry salmon with herbs. Boil potatoes and season with a bit of olive oil and parsley. Serve with a side salad.",
@@ -475,7 +475,7 @@
   },
   {
     "id": 21,
-    "image": "../images/fish5.png",
+    "image": "images/fish5.png",
     "name": "Cod with Couscous",
     "quantity": 0,
     "instructions": "Steam or pan-fry cod fillets. Prepare couscous and toss with chopped vegetables and herbs. Serve the fish over couscous.",
@@ -498,7 +498,7 @@
   },
   {
     "id": 22,
-    "image": "../html/images/pastadots.jpg",
+    "image": "images/pastadots.jpg",
     "name": "Chili Mac and Cheese",
     "quantity": 0,
     "instructions": "Cook macaroni. In another pan, brown ground beef, add spices and tomato sauce. Stir in cooked pasta and cheese until melted.",
@@ -521,7 +521,7 @@
   },
   {
     "id": 23,
-    "image": "../images/vicky-ng-yIh0i6TYGrs-unsplash.jpg",
+    "image": "images/vicky-ng-yIh0i6TYGrs-unsplash.jpg",
     "name": "Berry Smoothie Bowl",
     "quantity": 0,
     "instructions": "Blend frozen berries with yogurt and a splash of milk. Pour into a bowl and top with granola and fresh fruit.",
@@ -544,7 +544,7 @@
   },
   {
     "id": 24,
-    "image": "../images/olga-kudriavtseva-s8J1DlRroo0-unsplash.jpg",
+    "image": "images/olga-kudriavtseva-s8J1DlRroo0-unsplash.jpg",
     "name": "Steel Cut Oats",
     "quantity": 0,
     "instructions": "Simmer steel cut oats in water or milk until tender. Stir in cinnamon and top with fruit or nuts.",
@@ -567,7 +567,7 @@
   },
   {
     "id": 25,
-    "image": "../images/kateryna-t-nCHzHaJandM-unsplash.jpg",
+    "image": "images/kateryna-t-nCHzHaJandM-unsplash.jpg",
     "name": "Garlic Shrimp Spaghetti",
     "quantity": 0,
     "instructions": "Cook spaghetti. In a pan, sauté shrimp with garlic and olive oil. Toss shrimp with cooked spaghetti and parsley.",
@@ -590,7 +590,7 @@
   },
   {
     "id": 26,
-    "image": "../html/images/kirill-tonkikh-NFQi_2HUNRI-unsplash.jpg",
+    "image": "images/kirill-tonkikh-NFQi_2HUNRI-unsplash.jpg",
     "name": "Beef Ramen",
     "quantity": 0,
     "instructions": "Cook ramen noodles. In a pan, sauté beef slices with soy sauce. Combine noodles, beef, broth, and vegetables.",
@@ -613,7 +613,7 @@
   },
   {
     "id": 27,
-    "image": "../images/fernando-andrade-tsFV9YBJTnk-unsplash.jpg",
+    "image": "images/fernando-andrade-tsFV9YBJTnk-unsplash.jpg",
     "name": "Quesadillas",
     "quantity": 0,
     "instructions": "Fill tortillas with cheese and optional toppings. Fold and cook on a skillet until golden and melty.",
@@ -635,7 +635,7 @@
   },
   {
     "id": 28,
-    "image": "../html/images/emanuel-ekstrom-3-4eMmRBXjA-unsplash.jpg",
+    "image": "images/emanuel-ekstrom-3-4eMmRBXjA-unsplash.jpg",
     "name": "Swedish Meatballs",
     "quantity": 0,
     "instructions": "Mix ground beef with breadcrumbs and spices. Form meatballs and cook. Simmer in creamy gravy sauce.",
@@ -658,7 +658,7 @@
   },
   {
     "id": 29,
-    "image": "../html/images/nathan-dumlao-5eROVOJW2bA-unsplash.jpg",
+    "image": "images/nathan-dumlao-5eROVOJW2bA-unsplash.jpg",
     "name": "Cowboy Soup",
     "quantity": 0,
     "instructions": "Brown beef, add beans, vegetables, tomatoes, and broth. Simmer until hearty and flavorful.",
@@ -681,7 +681,7 @@
   },
   {
     "id": 30,
-    "image": "../html/images/pixzolo-photography-BiWb1Y8wpZk-unsplash.jpg",
+    "image": "images/pixzolo-photography-BiWb1Y8wpZk-unsplash.jpg",
     "name": "Grilled Cheese",
     "quantity": 0,
     "instructions": "Butter bread slices. Place cheese between slices and grill until golden brown and melty.",
@@ -698,7 +698,7 @@
   },
   {
     "id": 31,
-    "image": "../html/images/pinar-kucuk-QuFm328PV88-unsplash.jpg",
+    "image": "images/pinar-kucuk-QuFm328PV88-unsplash.jpg",
     "name": "Spaghetti Carbonara",
     "quantity": 0,
     "instructions": "Cook spaghetti. Whisk eggs and cheese. Toss hot pasta with egg mixture, crispy bacon, and pepper.",
@@ -721,7 +721,7 @@
   },
   {
     "id": 32,
-    "image": "../html/images/pexels-ella-olsson-572949-3026801.jpg",
+    "image": "images/pexels-ella-olsson-572949-3026801.jpg",
     "name": "Lemon Vanilla Pudding",
     "quantity": 0,
     "instructions": "Whisk together milk, sugar, cornstarch, vanilla, and lemon zest. Cook until thickened. Chill before serving.",
@@ -744,7 +744,7 @@
   },
   {
     "id": 33,
-    "image": "../html/images/jaqueline-pelzer-MytHEJlzdcM-unsplash.jpg",
+    "image": "images/jaqueline-pelzer-MytHEJlzdcM-unsplash.jpg",
     "name": "Banana Pancakes",
     "quantity": 0,
     "instructions": "Mash bananas and mix with eggs and flour. Cook on a skillet until golden on both sides.",
@@ -768,7 +768,7 @@
   },
   {
     "id": 34,
-    "image": "../html/images/sheri-silver-Gwmz82WzD8w-unsplash.jpg",
+    "image": "images/sheri-silver-Gwmz82WzD8w-unsplash.jpg",
     "name": "Pizza Buns",
     "quantity": 0,
     "instructions": "Roll out dough, top with sauce, cheese, and toppings. Roll up, slice, and bake until golden.",
@@ -790,7 +790,7 @@
   },
   {
     "id": 35,
-    "image": "../images/leanna-myers-t97ZUtiJ6hc-unsplash.jpg",
+    "image": "images/leanna-myers-t97ZUtiJ6hc-unsplash.jpg",
     "name": "Chicken Caesar Flatbreads",
     "quantity": 0,
     "instructions": "Grill chicken and slice. Spread Caesar dressing on flatbreads, top with chicken, lettuce, and parmesan.",
@@ -813,7 +813,7 @@
   },
   {
     "id": 36,
-    "image": "../images/irina-del-Abfak0EbjMw-unsplash.jpg",
+    "image": "images/irina-del-Abfak0EbjMw-unsplash.jpg",
     "name": "Grilled Chicken Salad",
     "quantity": 0,
     "instructions": "Grill chicken breast and slice. Toss with mixed greens, tomatoes, cucumbers, and a light dressing.",
@@ -836,7 +836,7 @@
   },
   {
     "id": 37,
-    "image": "../images/drake-whitney-KwT-QQj1-NE-unsplash.jpg",
+    "image": "images/drake-whitney-KwT-QQj1-NE-unsplash.jpg",
     "name": "Peanut Tofu Stirfry",
     "quantity": 0,
     "instructions": "Sauté tofu cubes until golden. Stir fry with vegetables and toss in a peanut sauce.",
@@ -859,7 +859,7 @@
   },
   {
     "id": 38,
-    "image": "../html/images/falafel.jpg",
+    "image": "images/falafel.jpg",
     "name": "Falafel Nourish Bowl",
     "quantity": 0,
     "instructions": "Arrange cooked falafel, greens, veggies, and grains in a bowl. Drizzle with tahini sauce.",
@@ -882,7 +882,7 @@
   },
   {
     "id": 39,
-    "image": "../html/images/pexels-ella-olsson-572949-3026808.jpg",
+    "image": "images/pexels-ella-olsson-572949-3026808.jpg",
     "name": "Tofu and Chanterelle Ramen",
     "quantity": 0,
     "instructions": "Sauté garlic, ginger, and chanterelles in sesame oil. Add tofu cubes and lightly brown. Pour in vegetable broth, stir in soy sauce and miso paste. Simmer, then cook ramen noodles in the broth. Add spinach at the end. Serve with spring onions, sesame seeds, and chili flakes.",
@@ -913,7 +913,7 @@
   },
   {
     "id": 40,
-    "image": "../images/poke-bowl.jpg",
+    "image": "images/poke-bowl.jpg",
     "name": "Salmon Poke Bowl",
     "quantity": 0,
     "instructions": "Cube fresh salmon and marinate briefly in soy sauce, sesame oil, and a touch of rice vinegar. Assemble a bowl with cooked rice, salmon, cucumber, avocado, and edamame. Top with sesame seeds and optional sriracha mayo.",
