@@ -45,6 +45,11 @@ main {
 
 .weekly-menu-card {
   background-color: #f0f8f5;
+  transition: transform 0.2s ease-in;
+}
+
+.weekly-menu-card:hover {
+  transform: translateY(-7px);
 }
 
 .weekly-menu-footer {
