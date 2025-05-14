@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Snackademic - Your account</title>
-    <link rel="stylesheet" href="../css/main.css" />
-    <script src="../js/main.js" defer></script>
+    <title>Meal Plans</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../css/meal-plans.css" />
     <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/account.css" />
-    <script src="https://accounts.google.com/gsi/client" async defer></script>
-    <script src="../js/login.js" defer></script>
+    <link rel="stylesheet" href="../css/calendar.css" />
+    <script src="../js/main.js" defer></script>
   </head>
   <body>
     <header>
@@ -22,40 +22,32 @@
         <div class="menu-toggle" id="mobile-menu">☰</div>
         <div class="nav-collapse" id="nav-collapse">
           <ul class="nav-links">
-            <li><a href="../html/index.html">Home</a></li>
-            <li><a href="../html/recipes.html">Recipes</a></li>
-            <li><a href="../html/meal-plans.html">Plans</a></li>
-            <li><a href="../html/calendar.html">Calendar</a></li>
-            <li><a href="../html/about.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="meal-plans.html">Plans</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="about.html">About</a></li>
           </ul>
           <div class="nav-right" id="nav-right">
-            <a href="../html/login.html" id="login-link">Login</a>
-            <a href="../html/account.html" id="account-link">My Account</a>
+            <a href="login.html" id="login-link">Login</a>
+            <a href="account.html" id="account-link">My Account</a>
           </div>
         </div>
       </nav>
     </header>
-
-    <h1>Login to Snackademic</h1>
-    <div class="google-btn">
-      <div
-        id="g_id_onload"
-        data-client_id="1009330604230-p328r53pgf66727kc4dh457891effii3.apps.googleusercontent.com"
-        data-callback="handleCredentialResponse"
-        data-auto_prompt="false"
-      ></div>
-
-      <div
-        class="g_id_signin"
-        data-type="standard"
-        data-size="large"
-        data-theme="outline"
-        data-text="sign_in_with"
-        data-shape="rectangular"
-        data-logo_alignment="left"
-      ></div>
-    </div>
-
+    <main>
+      <h1>MY CALENDAR</h1>
+      <button id="remove-recipe-button" class="remove-button" type="button">
+        🗑️
+      </button>
+      <section class="calendar-section">
+        <div id="calendar-container">
+          <h2>My Added Recipes</h2>
+          <div id="added-recipes-panel" class="recipe-draggable-list"></div>
+        </div>
+        <div id="calendar-grid" class="calendar-grid"></div>
+      </section>
+    </main>
     <footer>
       <div class="footer-links">
         <div>
