@@ -46,6 +46,7 @@ main {
 .weekly-menu-card {
   background-color: #f0f8f5;
   transition: transform 0.2s ease-in;
+  border-radius: 10px;
 }
 
 .weekly-menu-card:hover {
