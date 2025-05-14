@@ -21,11 +21,11 @@ fetch("expanded-recipes.json")
         </div>
 
         <div class="recipe-detail-container">
+
           <div class="left-column">
             <img src="${recipe.image}" alt="${
         recipe.name
       }" class="recipe-image" />
-
             <div class="mobile-tabs">
               <div class="toggle-tab">
                 <input id="toggle" type="checkbox"/>
@@ -35,8 +35,14 @@ fetch("expanded-recipes.json")
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="recipe-section">
+          <div class="right-column">
+            <div class="instructions">
+              <h2>Instructions</h2>
+              <p>${recipe.instructions}</p>
+            </div>
+                      <div class="recipe-section">
               <div class="recipe-box">
                 <span><strong>Cooking Time:</strong> ${
                   recipe.time_minutes
@@ -79,14 +85,7 @@ fetch("expanded-recipes.json")
                   recipe.nutrition?.carbs_g
                 } g</span>
               </div>
-            </div>
           </div>
-
-          <div class="right-column">
-            <div class="instructions">
-              <h2>Instructions</h2>
-              <p>${recipe.instructions}</p>
-            </div>
           </div>
         </div>
       `;
