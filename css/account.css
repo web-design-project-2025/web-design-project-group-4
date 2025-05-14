@@ -100,6 +100,7 @@ h1 {
   border-radius: 5px;
   padding: 10px;
   margin: 50px;
+  margin-left: 0.5em;
 }
 
 /* log in */
@@ -126,4 +127,32 @@ h1 {
   width: 50px;
   height: 50px;
   object-fit: cover;
+}
+
+/*Responsiveness mobile*/
+
+@media screen and (max-width: 520px) {
+  .account-header {
+    justify-content: start;
+  }
+  .account-title {
+    font-size: 2rem;
+  }
+  .preferences {
+    margin-left: 0.5em;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 1020px) {
+  .account-header {
+    justify-content: start;
+  }
+  .account-title {
+    font-size: 2rem;
+  }
+  .preferences {
+    margin-left: 0.5em;
+    width: 40%;
+  }
 }

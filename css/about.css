@@ -53,7 +53,30 @@ main {
     justify-content: center;
   }
   .content-container {
-    padding: 0;
+    padding: 1em;
+  }
+  h2 {
+    margin-top: 1em;
+  }
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 1000px) {
+  .about-images {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    gap: 1em;
+    width: 50%;
+    justify-content: center;
+  }
+  .content-container {
+    padding: 1em;
   }
   h2 {
     margin-top: 1em;
