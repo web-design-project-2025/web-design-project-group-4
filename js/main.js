@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
 //Fetching json objects, storing in localstorage:
 console.log("✅ main.js is loaded");
 
-fetch("../recipes.json")
+fetch("recipes.json")
   .then(function (response) {
     return response.json();
   })

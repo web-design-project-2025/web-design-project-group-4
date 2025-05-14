@@ -3,7 +3,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const recipeId = urlParams.get("recipeId");
 
 // Fetch recipes from expanded-recipes.json
-fetch("../expanded-recipes.json")
+fetch("expanded-recipes.json")
   .then((response) => {
     if (!response.ok) {
       throw new Error("Failed to load recipes.");
