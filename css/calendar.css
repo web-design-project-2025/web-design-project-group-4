@@ -167,6 +167,13 @@
   transition: background-color 0.3s ease;
 }
 
+.recipe-intro {
+  text-align: center;
+  font-size: medium;
+  font-weight: normal;
+  margin: 0;
+}
+
 /*Responsiveness, mobile*/
 @media screen and (max-width: 520px) {
   .calendar-day,
@@ -184,8 +191,8 @@
   h1 {
     margin-bottom: 1em;
   }
-}
-.recipe-intro {
-  text-align: center;
-  margin: 0;
+  .recipe-intro {
+    text-align: start;
+    width: 80%;
+  }
 }
