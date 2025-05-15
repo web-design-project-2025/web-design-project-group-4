@@ -181,6 +181,14 @@ h2 {
   gap: 20px;
   margin-top: 20px;
   place-content: center;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1.5s ease-out, transform 2s ease-out;
+}
+
+.trend-show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .trending-recipes-card img {

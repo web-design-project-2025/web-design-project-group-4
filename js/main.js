@@ -1,3 +1,8 @@
+//makes it start at the top
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+};
+
 //menu toggle help from https://www.w3schools.com/howto/howto_js_mobile_navbar.asp and chatgpt
 document.addEventListener("DOMContentLoaded", () => {
   const toggle = document.getElementById("mobile-menu");
@@ -12,6 +17,37 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log("Toggling menu");
     collapse.classList.toggle("active");
   });
+});
+//animation start while scrolling
+document.addEventListener("DOMContentLoaded", () => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("trend-show");
+        observer.unobserve(entry.target);
+      }
+    });
+  });
+
+  document
+    .querySelectorAll(".trending-recipes-grid")
+    .forEach((el) => observer.observe(el));
+});
+
+//animation start while scrolling
+document.addEventListener("DOMContentLoaded", () => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("weekly-show");
+        observer.unobserve(entry.target);
+      }
+    });
+  });
+
+  document
+    .querySelectorAll(".weekly-menu")
+    .forEach((el) => observer.observe(el));
 });
 
 // Display profile picture when logged in https://chatgpt.com/share/682205f6-dfb8-8007-aedf-e095f8785ca2
