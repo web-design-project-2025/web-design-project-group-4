@@ -81,10 +81,10 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// Fetching json + Inspiration for function addtocalendar and removefromcalendar: https://www.youtube.com/watch?v=pRkHOD_nkH4&t=408s
-//Fetching json objects, storing in localstorage:
 console.log("✅ main.js is loaded");
 
+// Fetching json + Inspiration for function addtocalendar and removefromcalendar: https://www.youtube.com/watch?v=pRkHOD_nkH4&t=408s
+//Fetching json objects, storing in localstorage:
 fetch("recipes.json")
   .then(function (response) {
     return response.json();
@@ -130,9 +130,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-//localStorage.clear();
-//addToCalendar(11);
-
 function removeFromCalendar(recipeId) {
   let calendar = JSON.parse(localStorage.getItem("calendar")) || [];
   //Making sure localstorage clears when calendar has been emptied:
@@ -143,7 +140,7 @@ function removeFromCalendar(recipeId) {
     localStorage.setItem("calendar", JSON.stringify(updatedCalendar)); // update localstorage with the new calendar
   }
 }
-//drag and drop to "trash", help from Chatgpt
+//drag and drop to "trash", help from ChatGPT
 document.addEventListener("DOMContentLoaded", function () {
   const removeButton = document.getElementById("remove-recipe-button");
 
