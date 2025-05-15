@@ -186,7 +186,8 @@
   }
   #remove-recipe-button {
     top: 15em;
-    right: 1rem;
+    margin-left: 17rem;
+    position: static;
   }
   h1 {
     margin-bottom: 1em;
