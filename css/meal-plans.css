@@ -29,11 +29,15 @@ main {
 .meal-plan-card {
   background-color: #f0f8f5;
   text-align: center;
-  transition: transform 0.2s ease-in;
+  transition: transform 0.3s ease-in;
 }
 
 .meal-plan-card p {
   padding: 20px;
+}
+.meal-plan-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Weekly Menu section */
@@ -51,7 +55,7 @@ main {
 
 .weekly-menu-card {
   background-color: #f0f8f5;
-  transition: transform 0.2s ease-in;
+  transition: transform 0.3s ease-in;
 }
 .weekly-menu-card p {
   padding: 20px;
@@ -59,6 +63,7 @@ main {
 
 .weekly-menu-card:hover {
   transform: translateY(-7px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .weekly-menu-footer {
@@ -94,9 +99,6 @@ main {
   display: block;
   object-fit: cover;
   aspect-ratio: 1.1;
-}
-.meal-plan-card:hover {
-  transform: translateY(-7px);
 }
 
 /* Footer */

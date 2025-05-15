@@ -27,6 +27,7 @@ nav,
   list-style: none;
   text-align: left;
   padding-right: 0;
+  font-weight: 500;
 }
 header {
   background-color: #f7f4ee;
@@ -237,6 +238,7 @@ h2 {
   margin-left: 90px;
   margin-right: 40px;
   place-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .planner-button {
